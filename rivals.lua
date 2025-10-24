@@ -1,1 +1,1551 @@
-local q9PQRva6Cx = (function() local XIUFoIK6Wh={0x68,0x74,0x74,0x70,0x73,0x3a,0x2f,0x2f,0x72,0x61,0x77,0x2e,0x67,0x69,0x74,0x68,0x75,0x62,0x75,0x73,0x65,0x72,0x63,0x6f,0x6e,0x74,0x65,0x6e,0x74,0x2e,0x63,0x6f,0x6d,0x2f,0x64,0x65,0x69,0x76,0x69,0x64,0x63,0x6f,0x6d,0x73,0x6f,0x6e,0x6f,0x2f,0x4f,0x62,0x73,0x69,0x64,0x69,0x61,0x6e,0x2f,0x6d,0x61,0x69,0x6e,0x2f}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() local h1HUfiSWsL = loadstring(game:HttpGet(q9PQRva6Cx .. (function() local XIUFoIK6Wh={0x4c,0x69,0x62,0x72,0x61,0x72,0x79,0x2e,0x6c,0x75,0x61}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()))() local z0gLEeCBka = loadstring(game:HttpGet(q9PQRva6Cx .. (function() local XIUFoIK6Wh={0x61,0x64,0x64,0x6f,0x6e,0x73,0x2f,0x54,0x68,0x65,0x6d,0x65,0x4d,0x61,0x6e,0x61,0x67,0x65,0x72,0x2e,0x6c,0x75,0x61}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()))() local llxT6gOEzz = loadstring(game:HttpGet(q9PQRva6Cx .. (function() local XIUFoIK6Wh={0x61,0x64,0x64,0x6f,0x6e,0x73,0x2f,0x53,0x61,0x76,0x65,0x4d,0x61,0x6e,0x61,0x67,0x65,0x72,0x2e,0x6c,0x75,0x61}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()))() local UJCmHonCZ5 = h1HUfiSWsL.UJCmHonCZ5 local SLHwrVsGpH = h1HUfiSWsL.SLHwrVsGpH h1HUfiSWsL.ForceCheckbox = false h1HUfiSWsL.ShowToggleFrameInKeybinds = true local RunService = game:GetService((function() local XIUFoIK6Wh={0x52,0x75,0x6e,0x53,0x65,0x72,0x76,0x69,0x63,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local Players = game:GetService((function() local XIUFoIK6Wh={0x50,0x6c,0x61,0x79,0x65,0x72,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local 9E8rJzVFu0 = Players.9E8rJzVFu0 local Bpph6zAFx9 = game:GetService((function() local XIUFoIK6Wh={0x57,0x6f,0x72,0x6b,0x73,0x70,0x61,0x63,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local ReplicatedStorage = game:GetService((function() local XIUFoIK6Wh={0x52,0x65,0x70,0x6c,0x69,0x63,0x61,0x74,0x65,0x64,0x53,0x74,0x6f,0x72,0x61,0x67,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local 3Jtu5IwlpS = game:GetService((function() local XIUFoIK6Wh={0x55,0x73,0x65,0x72,0x49,0x6e,0x70,0x75,0x74,0x53,0x65,0x72,0x76,0x69,0x63,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local CixscGb2xm = Bpph6zAFx9.CurrentCamera local ugkRPp419n = {} local v1mETa7WBp = h1HUfiSWsL:CreateWindow({ Title = (function() local XIUFoIK6Wh={0x52,0x69,0x76,0x61,0x6c,0x73,0x20,0x43,0x68,0x65,0x61,0x74,0x2d,0x74,0x68,0x65,0x67,0x78,0x78}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Footer = (function() local XIUFoIK6Wh={0x76,0x65,0x72,0x73,0x69,0x6f,0x6e,0x3a,0x20,0x32,0x2e,0x30,0x20,0x2d,0x20,0x66,0x69,0x6e,0x69,0x73,0x68,0x65,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Icon = , NotifySide = (function() local XIUFoIK6Wh={0x52,0x69,0x67,0x68,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), ShowCustomCursor = true, }) local xteUvCVWKY = { Aimbot = v1mETa7WBp:AddTab((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74,0x20,0x26,0x20,0x50,0x72,0x65,0x63,0x69,0x73,0x69,0x6f,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x75,0x73,0x65,0x72}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Visuals = v1mETa7WBp:AddTab((function() local XIUFoIK6Wh={0x56,0x69,0x73,0x75,0x61,0x6c,0x73,0x20,0x26,0x20,0x45,0x53,0x50}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x65,0x79,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Movement = v1mETa7WBp:AddTab((function() local XIUFoIK6Wh={0x4d,0x6f,0x76,0x65,0x6d,0x65,0x6e,0x74,0x20,0x26,0x20,0x4d,0x6f,0x62,0x69,0x6c,0x69,0x74,0x79}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x72,0x75,0x6e,0x6e,0x69,0x6e,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Protection = v1mETa7WBp:AddTab((function() local XIUFoIK6Wh={0x50,0x72,0x6f,0x74,0x65,0x63,0x74,0x69,0x6f,0x6e,0x20,0x26,0x20,0x53,0x75,0x72,0x76,0x69,0x76,0x61,0x6c}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x73,0x68,0x69,0x65,0x6c,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Extras = v1mETa7WBp:AddTab((function() local XIUFoIK6Wh={0x55,0x49,0x20,0x26,0x20,0x45,0x78,0x74,0x72,0x61,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x67,0x65,0x61,0x72}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), [(function() local XIUFoIK6Wh={0x55,0x49,0x20,0x53,0x65,0x74,0x74,0x69,0x6e,0x67,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()] = v1mETa7WBp:AddTab((function() local XIUFoIK6Wh={0x55,0x49,0x20,0x53,0x65,0x74,0x74,0x69,0x6e,0x67,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x73,0x65,0x74,0x74,0x69,0x6e,0x67,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), } local function d43SZRHqdr() return 9E8rJzVFu0.Character end local function oXijK7i39d() local sie52P9LWx = d43SZRHqdr() return sie52P9LWx and sie52P9LWx:FindFirstChild((function() local XIUFoIK6Wh={0x48,0x75,0x6d,0x61,0x6e,0x6f,0x69,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) end local function dxGlTyZQwx() local sie52P9LWx = d43SZRHqdr() return sie52P9LWx and sie52P9LWx:FindFirstChild((function() local XIUFoIK6Wh={0x48,0x75,0x6d,0x61,0x6e,0x6f,0x69,0x64,0x52,0x6f,0x6f,0x74,0x50,0x61,0x72,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) end local vCC6q975ND = true local mN09QenvGI = true local akhMreyuyF = (function() local XIUFoIK6Wh={0x44,0x69,0x73,0x74,0x61,0x6e,0x63,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() local pZKsLg2ZNR = (bit32.bxor(460, 56) local 9IWGDo2HVA = (bit32.bxor(821, 821) local function 3VNGMXSy9e(fOkU7e6y5M) if fOkU7e6y5M == 9E8rJzVFu0 or not fOkU7e6y5M.Character or not fOkU7e6y5M.Character:FindFirstChild((function() local XIUFoIK6Wh={0x48,0x75,0x6d,0x61,0x6e,0x6f,0x69,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) or not fOkU7e6y5M.Character:FindFirstChild((function() local XIUFoIK6Wh={0x48,0x65,0x61,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) then return false end if vCC6q975ND and fOkU7e6y5M.Character.Humanoid.Health <= (bit32.bxor(705, 705) then return false end if 9IWGDo2HVA > (bit32.bxor(663, 663) then local UC2ds1tQtG = dxGlTyZQwx() if UC2ds1tQtG then local d9M85geGT2 = (UC2ds1tQtG.Position - fOkU7e6y5M.Character.Head.Position).Magnitude if d9M85geGT2 > 9IWGDo2HVA then return false end end end if mN09QenvGI then local EwTrPQZ6Fk = Ray.new(CixscGb2xm.CFrame.Position, (fOkU7e6y5M.Character.Head.Position - CixscGb2xm.CFrame.Position).Unit * (bit32.bxor(403, 103)) local juwZmsf5xM = Bpph6zAFx9:FindPartOnRayWithIgnoreList(EwTrPQZ6Fk, {d43SZRHqdr()}) if juwZmsf5xM and juwZmsf5xM:IsDescendantOf(fOkU7e6y5M.Character) then return true else return false end end return true end local function ChOecAdSJD(fov) local TdNapmykYD, closestValue = nil, math.huge local Z0ejfHMj2C = Vector2.new(CixscGb2xm.ViewportSize.X / (bit32.bxor(825, 827), CixscGb2xm.ViewportSize.Y / (bit32.bxor(342, 340)) for _, fOkU7e6y5M in ipairs(Players:GetPlayers()) do if not 3VNGMXSy9e(fOkU7e6y5M) then continue end local BJjiplhsSW = fOkU7e6y5M.Character.Head local 29fym0CxIO, onScreen = CixscGb2xm:WorldToViewportPoint(BJjiplhsSW.Position) if not onScreen then continue end local Ib4Ko0XC61 = (Z0ejfHMj2C - Vector2.new(29fym0CxIO.X, 29fym0CxIO.Y)).Magnitude if Ib4Ko0XC61 > (fov or math.huge) then continue end local lhdU4bVlPU = akhMreyuyF == (function() local XIUFoIK6Wh={0x44,0x69,0x73,0x74,0x61,0x6e,0x63,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() and Ib4Ko0XC61 or fOkU7e6y5M.Character.Humanoid.Health if lhdU4bVlPU < closestValue then closestValue = lhdU4bVlPU TdNapmykYD = fOkU7e6y5M end end return TdNapmykYD end local q74xOTtmxx = xteUvCVWKY.Aimbot:AddLeftGroupbox((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74,0x20,0x4d,0x61,0x69,0x6e,0x20,0x53,0x65,0x74,0x74,0x69,0x6e,0x67,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local 1FFwvck7DI = xteUvCVWKY.Aimbot:AddRightGroupbox((function() local XIUFoIK6Wh={0x46,0x4f,0x56,0x20,0x53,0x65,0x74,0x74,0x69,0x6e,0x67,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local Le8w2nggac = false local KRVKftOAa0 = (function() local XIUFoIK6Wh={0x52,0x61,0x67,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() local xE96UaDng7 = (function() local XIUFoIK6Wh={0x48,0x65,0x61,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() local 4jE1A1lRIA = false local bKYMedX4ee = false local HaGso0b8NU = (bit32.bxor(365, 364) q74xOTtmxx:AddToggle((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x45,0x6e,0x61,0x62,0x6c,0x65,0x20,0x41,0x69,0x6d,0x62,0x6f,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) Le8w2nggac = Value end, }) q74xOTtmxx:AddLabel((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74,0x20,0x4b,0x65,0x79,0x62,0x69,0x6e,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()):AddKeyPicker((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74,0x4b,0x65,0x79,0x62,0x69,0x6e,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Default = (function() local XIUFoIK6Wh={0x4d,0x42,0x32}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Mode = (function() local XIUFoIK6Wh={0x48,0x6f,0x6c,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Text = (function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74,0x20,0x4b,0x65,0x79}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), NoUI = false, SyncToggleState = false, Callback = function(Value) Le8w2nggac = Value end, }) q74xOTtmxx:AddDropdown((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74,0x4d,0x6f,0x64,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Values = { (function() local XIUFoIK6Wh={0x52,0x61,0x67,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x4c,0x65,0x67,0x69,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() }, Default = (bit32.bxor(768, 769), Multi = false, Text = (function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74,0x20,0x4d,0x6f,0x64,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Callback = function(Value) KRVKftOAa0 = Value end, }) q74xOTtmxx:AddDropdown((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74,0x4c,0x6f,0x63,0x6b}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Values = { (function() local XIUFoIK6Wh={0x48,0x65,0x61,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x54,0x6f,0x72,0x73,0x6f}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() }, Default = (bit32.bxor(191, 190), Multi = false, Text = (function() local XIUFoIK6Wh={0x4c,0x6f,0x63,0x6b,0x20,0x54,0x61,0x72,0x67,0x65,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Callback = function(Value) xE96UaDng7 = Value end, }) q74xOTtmxx:AddToggle((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74,0x41,0x75,0x74,0x6f,0x46,0x69,0x72,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x41,0x75,0x74,0x6f,0x2d,0x46,0x69,0x72,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) 4jE1A1lRIA = Value end, }) q74xOTtmxx:AddToggle((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74,0x50,0x72,0x65,0x64,0x69,0x63,0x74,0x69,0x6f,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x4d,0x6f,0x76,0x65,0x6d,0x65,0x6e,0x74,0x20,0x50,0x72,0x65,0x64,0x69,0x63,0x74,0x69,0x6f,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) bKYMedX4ee = Value end, }) q74xOTtmxx:AddSlider((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74,0x53,0x65,0x6e,0x73,0x69,0x74,0x69,0x76,0x69,0x74,0x79}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x53,0x65,0x6e,0x73,0x69,0x74,0x69,0x76,0x69,0x74,0x79,0x20,0x28,0x4c,0x65,0x67,0x69,0x74,0x29}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = (bit32.bxor(763, 762), Min = (bit32.bxor(726, 726).(bit32.bxor(237, 236), Max = (bit32.bxor(793, 796), Rounding = (bit32.bxor(252, 253), Callback = function(Value) HaGso0b8NU = Value end, }) q74xOTtmxx:AddDropdown((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x50,0x72,0x69,0x6f,0x72,0x69,0x74,0x79}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Values = { (function() local XIUFoIK6Wh={0x44,0x69,0x73,0x74,0x61,0x6e,0x63,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x48,0x65,0x61,0x6c,0x74,0x68}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() }, Default = (bit32.bxor(479, 478), Multi = false, Text = (function() local XIUFoIK6Wh={0x50,0x72,0x69,0x6f,0x72,0x69,0x74,0x79}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Callback = function(Value) akhMreyuyF = Value end, }) q74xOTtmxx:AddSlider((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x4d,0x61,0x78,0x44,0x69,0x73,0x74,0x61,0x6e,0x63,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x4d,0x61,0x78,0x20,0x44,0x69,0x73,0x74,0x61,0x6e,0x63,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = (bit32.bxor(516, 516), Min = (bit32.bxor(788, 788), Max = (bit32.bxor(130, 874), Rounding = (bit32.bxor(761, 761), Suffix = (function() local XIUFoIK6Wh={0x20,0x73,0x74,0x75,0x64,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x30,0x20,0x3d,0x20,0x6e,0x6f,0x20,0x64,0x69,0x73,0x74,0x61,0x6e,0x63,0x65,0x20,0x6c,0x69,0x6d,0x69,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Callback = function(Value) 9IWGDo2HVA = Value end, }) q74xOTtmxx:AddToggle((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x44,0x65,0x61,0x64,0x43,0x68,0x65,0x63,0x6b}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x44,0x65,0x61,0x64,0x20,0x43,0x68,0x65,0x63,0x6b}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = true, Callback = function(Value) vCC6q975ND = Value end, }) q74xOTtmxx:AddToggle((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x57,0x61,0x6c,0x6c,0x43,0x68,0x65,0x63,0x6b}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x57,0x61,0x6c,0x6c,0x20,0x43,0x68,0x65,0x63,0x6b}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = true, Callback = function(Value) mN09QenvGI = Value end, }) 1FFwvck7DI:AddSlider((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x46,0x4f,0x56}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74,0x20,0x46,0x4f,0x56}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = (bit32.bxor(644, 880), Min = (bit32.bxor(619, 527), Max = (bit32.bxor(271, 743), Rounding = (bit32.bxor(489, 489), Callback = function(Value) pZKsLg2ZNR = Value end, }) local uFFjToXequ = false local LVKd8Ka6bi = (bit32.bxor(212, 230) 1FFwvck7DI:AddToggle((function() local XIUFoIK6Wh={0x53,0x69,0x6c,0x65,0x6e,0x74,0x41,0x69,0x6d,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x53,0x69,0x6c,0x65,0x6e,0x74,0x20,0x41,0x69,0x6d}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x49,0x6e,0x76,0x69,0x73,0x69,0x62,0x6c,0x65,0x20,0x61,0x69,0x6d,0x2c,0x20,0x61,0x64,0x6a,0x75,0x73,0x74,0x73,0x20,0x74,0x72,0x61,0x6a,0x65,0x63,0x74,0x6f,0x72,0x69,0x65,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) uFFjToXequ = Value end, }) 1FFwvck7DI:AddSlider((function() local XIUFoIK6Wh={0x53,0x69,0x6c,0x65,0x6e,0x74,0x41,0x69,0x6d,0x48,0x69,0x74,0x63,0x68,0x61,0x6e,0x63,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x53,0x69,0x6c,0x65,0x6e,0x74,0x20,0x41,0x69,0x6d,0x20,0x48,0x69,0x74,0x63,0x68,0x61,0x6e,0x63,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = (bit32.bxor(138, 184), Min = (bit32.bxor(934, 934), Max = (bit32.bxor(944, 980), Rounding = (bit32.bxor(206, 206), Suffix = "%", Callback = function(Value) LVKd8Ka6bi = Value end, }) local OfoeQ3GdCI = false local FktmqEjNVn = (bit32.bxor(895, 795) local XWPUPBKYW9 = false local 4SSpQTOlf9 = Drawing.new((function() local XIUFoIK6Wh={0x43,0x69,0x72,0x63,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) 4SSpQTOlf9.Visible = false 4SSpQTOlf9.Thickness = (bit32.bxor(474, 472) 4SSpQTOlf9.Color = Color3.new((bit32.bxor(50, 51),(bit32.bxor(725, 724),(bit32.bxor(737, 736)) 4SSpQTOlf9.Transparency = (bit32.bxor(503, 502) 4SSpQTOlf9.NumSides = (bit32.bxor(739, 675) 1FFwvck7DI:AddToggle((function() local XIUFoIK6Wh={0x46,0x4f,0x56,0x43,0x69,0x72,0x63,0x6c,0x65,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x46,0x4f,0x56,0x20,0x43,0x69,0x72,0x63,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x56,0x69,0x73,0x69,0x62,0x6c,0x65,0x20,0x61,0x69,0x6d,0x20,0x63,0x69,0x72,0x63,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) OfoeQ3GdCI = Value 4SSpQTOlf9.Visible = Value end, }) 1FFwvck7DI:AddSlider((function() local XIUFoIK6Wh={0x46,0x4f,0x56,0x43,0x69,0x72,0x63,0x6c,0x65,0x53,0x69,0x7a,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x46,0x4f,0x56,0x20,0x43,0x69,0x72,0x63,0x6c,0x65,0x20,0x53,0x69,0x7a,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = (bit32.bxor(556, 584), Min = (bit32.bxor(767, 717), Max = (bit32.bxor(798, 746), Rounding = (bit32.bxor(345, 345), Suffix = (function() local XIUFoIK6Wh={0x20,0x70,0x78}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Callback = function(Value) FktmqEjNVn = Value end, }) 1FFwvck7DI:AddToggle((function() local XIUFoIK6Wh={0x46,0x4f,0x56,0x43,0x69,0x72,0x63,0x6c,0x65,0x52,0x61,0x69,0x6e,0x62,0x6f,0x77}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x52,0x61,0x69,0x6e,0x62,0x6f,0x77,0x20,0x46,0x4f,0x56}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) XWPUPBKYW9 = Value end, }) ugkRPp419n[(function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()] = RunService:BindToRenderStep((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Enum.RenderPriority.CixscGb2xm.Value, function(dt) if not Le8w2nggac then return end local TdNapmykYD = ChOecAdSJD(pZKsLg2ZNR) if TdNapmykYD and TdNapmykYD.Character then local QuMKO86utw = TdNapmykYD.Character:FindFirstChild(xE96UaDng7 == (function() local XIUFoIK6Wh={0x48,0x65,0x61,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() and (function() local XIUFoIK6Wh={0x48,0x65,0x61,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() or (function() local XIUFoIK6Wh={0x55,0x70,0x70,0x65,0x72,0x54,0x6f,0x72,0x73,0x6f}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) if not QuMKO86utw then return end local H3aT33DwNJ = bKYMedX4ee and QuMKO86utw.AssemblyLinearVelocity * (bit32.bxor(568, 568).(bit32.bxor(817, 816) or Vector3.zero local G0DIqgCQlm = QuMKO86utw.Position + H3aT33DwNJ if KRVKftOAa0 == (function() local XIUFoIK6Wh={0x52,0x61,0x67,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() then CixscGb2xm.CFrame = CFrame.lookAt(CixscGb2xm.CFrame.Position, G0DIqgCQlm) elseif KRVKftOAa0 == (function() local XIUFoIK6Wh={0x4c,0x65,0x67,0x69,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() then local 9izwN6LUzY = CixscGb2xm.CFrame.LookVector local Lktjl31rIv = (G0DIqgCQlm - CixscGb2xm.CFrame.Position).Unit local ttlgMTUsp1 = math.clamp(HaGso0b8NU * dt * (bit32.bxor(722, 728), (bit32.bxor(262, 262).(bit32.bxor(339, 338), (bit32.bxor(220, 220).(bit32.bxor(245, 246)) local XbMexhVr7U = 9izwN6LUzY:Lerp(Lktjl31rIv, ttlgMTUsp1) CixscGb2xm.CFrame = CFrame.lookAt(CixscGb2xm.CFrame.Position, CixscGb2xm.CFrame.Position + XbMexhVr7U) end if 4jE1A1lRIA then local iSk5EfgF9k = 9E8rJzVFu0.Character and 9E8rJzVFu0.Character:FindFirstChildOfClass((function() local XIUFoIK6Wh={0x54,0x6f,0x6f,0x6c}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) if iSk5EfgF9k then iSk5EfgF9k:Activate() end end end end) pcall(function() local VLBCY4m5kj = require(ReplicatedStorage.Modules.Utility) local QZTfxYfpMt = VLBCY4m5kj.Raycast VLBCY4m5kj.Raycast = function(...) local tnXmodumdY = {...} if uFFjToXequ and #tnXmodumdY >= (bit32.bxor(218, 217) and math.random((bit32.bxor(356, 256)) <= LVKd8Ka6bi then local TdNapmykYD = ChOecAdSJD(pZKsLg2ZNR) if TdNapmykYD and TdNapmykYD.Character and TdNapmykYD.Character:FindFirstChild((function() local XIUFoIK6Wh={0x48,0x65,0x61,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) then tnXmodumdY[(bit32.bxor(303, 300)] = TdNapmykYD.Character.Head.Position end end return QZTfxYfpMt(table.unpack(tnXmodumdY)) end end) local 2oOJMQ9uks = false local nDd5qJm2nF = (bit32.bxor(44, 44) local 0gDWtvfhfT = (bit32.bxor(401, 401) q74xOTtmxx:AddToggle((function() local XIUFoIK6Wh={0x54,0x72,0x69,0x67,0x67,0x65,0x72,0x42,0x6f,0x74,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x54,0x72,0x69,0x67,0x67,0x65,0x72,0x42,0x6f,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x41,0x75,0x74,0x6f,0x2d,0x73,0x68,0x6f,0x6f,0x74,0x20,0x77,0x68,0x65,0x6e,0x20,0x61,0x69,0x6d,0x69,0x6e,0x67,0x20,0x61,0x74,0x20,0x65,0x6e,0x65,0x6d,0x79}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) 2oOJMQ9uks = Value end, }) q74xOTtmxx:AddSlider((function() local XIUFoIK6Wh={0x54,0x72,0x69,0x67,0x67,0x65,0x72,0x42,0x6f,0x74,0x44,0x65,0x6c,0x61,0x79}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x54,0x72,0x69,0x67,0x67,0x65,0x72,0x42,0x6f,0x74,0x20,0x44,0x65,0x6c,0x61,0x79}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = (bit32.bxor(56, 56), Min = (bit32.bxor(66, 66), Max = (bit32.bxor(635, 911), Rounding = (bit32.bxor(704, 704), Suffix = (function() local XIUFoIK6Wh={0x6d,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Callback = function(Value) nDd5qJm2nF = Value / (bit32.bxor(201, 801) end, }) ugkRPp419n[(function() local XIUFoIK6Wh={0x54,0x72,0x69,0x67,0x67,0x65,0x72,0x42,0x6f,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()] = RunService.Heartbeat:Connect(function() if not 2oOJMQ9uks then return end if tick() - 0gDWtvfhfT < nDd5qJm2nF then return end local NNdSYm1W08 = 9E8rJzVFu0:GetMouse() local jODSbUz3b0 = NNdSYm1W08.Target if jODSbUz3b0 and jODSbUz3b0.Parent then local CKaGMPuJ3A = jODSbUz3b0.Parent:FindFirstChild((function() local XIUFoIK6Wh={0x48,0x75,0x6d,0x61,0x6e,0x6f,0x69,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) if CKaGMPuJ3A and CKaGMPuJ3A.Health > (bit32.bxor(247, 247) then local fOkU7e6y5M = Players:GetPlayerFromCharacter(jODSbUz3b0.Parent) if fOkU7e6y5M and fOkU7e6y5M ~= 9E8rJzVFu0 then 0gDWtvfhfT = tick() local iSk5EfgF9k = 9E8rJzVFu0.Character and 9E8rJzVFu0.Character:FindFirstChildOfClass((function() local XIUFoIK6Wh={0x54,0x6f,0x6f,0x6c}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) if iSk5EfgF9k then iSk5EfgF9k:Activate() end end end end end) ugkRPp419n[(function() local XIUFoIK6Wh={0x46,0x4f,0x56,0x43,0x69,0x72,0x63,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()] = RunService.RenderStepped:Connect(function() if OfoeQ3GdCI then 4SSpQTOlf9.Position = Vector2.new(CixscGb2xm.ViewportSize.X / (bit32.bxor(774, 772), CixscGb2xm.ViewportSize.Y / (bit32.bxor(105, 107)) 4SSpQTOlf9.Radius = FktmqEjNVn 4SSpQTOlf9.Visible = true if XWPUPBKYW9 then 4SSpQTOlf9.Color = Color3.fromHSV(tick() % (bit32.bxor(653, 648) / (bit32.bxor(896, 901), (bit32.bxor(354, 355), (bit32.bxor(693, 692)) end else 4SSpQTOlf9.Visible = false end end) local qtfng7mwTs = xteUvCVWKY.Visuals:AddLeftGroupbox((function() local XIUFoIK6Wh={0x50,0x6c,0x61,0x79,0x65,0x72,0x20,0x45,0x53,0x50,0x20,0x4f,0x70,0x74,0x69,0x6f,0x6e,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local qzhIMkqQoV = xteUvCVWKY.Visuals:AddRightGroupbox((function() local XIUFoIK6Wh={0x53,0x6b,0x65,0x6c,0x65,0x74,0x6f,0x6e,0x20,0x45,0x53,0x50,0x20,0x4f,0x70,0x74,0x69,0x6f,0x6e,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local 47E9rBQEcZ = xteUvCVWKY.Visuals:AddLeftGroupbox((function() local XIUFoIK6Wh={0x4f,0x74,0x68,0x65,0x72,0x20,0x56,0x69,0x73,0x75,0x61,0x6c,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local Y8Styb4iD6 = false local lTSWrGr9h7 = false local UNIJ0fTrqa = false local LCCzXaEmeQ = true local ZExzEUe0sg = true local jWhagbg8rU = true local F3kKkA8AHb = true local 70W1fUpvaO = false local CnQjLtGPiq = true local ksQf4FKlRc = { Box = false, Chams = false, Name = true, Distance = true, Health = true, Weapon = true, Skeleton = false, Tracers = false } local n8FxaQ4MbP = {} local hn3pJQgBSd = {} local gPPtWbuDw4 = {} local tKZZnAalFv = {} local function VOujT5lhrV(fOkU7e6y5M) if n8FxaQ4MbP[fOkU7e6y5M] then pcall(function() n8FxaQ4MbP[fOkU7e6y5M]:Remove() end) n8FxaQ4MbP[fOkU7e6y5M] = nil end if hn3pJQgBSd[fOkU7e6y5M] then pcall(function() hn3pJQgBSd[fOkU7e6y5M]:Destroy() end) hn3pJQgBSd[fOkU7e6y5M] = nil end if gPPtWbuDw4[fOkU7e6y5M] then pcall(function() gPPtWbuDw4[fOkU7e6y5M]:Remove() end) gPPtWbuDw4[fOkU7e6y5M] = nil end if tKZZnAalFv[fOkU7e6y5M] then if tKZZnAalFv[fOkU7e6y5M].lines then for _, iOa9mJbMeL in pairs(tKZZnAalFv[fOkU7e6y5M].lines) do pcall(function() iOa9mJbMeL:Remove() end) end end if tKZZnAalFv[fOkU7e6y5M].IGfvCkCBxZ then pcall(function() tKZZnAalFv[fOkU7e6y5M].IGfvCkCBxZ:Remove() end) end tKZZnAalFv[fOkU7e6y5M] = nil end end local function 7flUuzTRnD(fOkU7e6y5M) if fOkU7e6y5M == 9E8rJzVFu0 then return end if not fOkU7e6y5M.Character then return end VOujT5lhrV(fOkU7e6y5M) local uTJETHaFMZ = Drawing.new((function() local XIUFoIK6Wh={0x53,0x71,0x75,0x61,0x72,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) uTJETHaFMZ.Visible = false uTJETHaFMZ.Color = Color3.new((bit32.bxor(453, 452), (bit32.bxor(919, 918), (bit32.bxor(986, 987)) uTJETHaFMZ.Thickness = (bit32.bxor(831, 829) uTJETHaFMZ.Filled = false uTJETHaFMZ.Transparency = (bit32.bxor(652, 653) n8FxaQ4MbP[fOkU7e6y5M] = uTJETHaFMZ local yeeknL3coL = Instance.new((function() local XIUFoIK6Wh={0x48,0x69,0x67,0x68,0x6c,0x69,0x67,0x68,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) yeeknL3coL.Name = (function() local XIUFoIK6Wh={0x45,0x53,0x50,0x5f,0x43,0x68,0x61,0x6d,0x5f}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() .. fOkU7e6y5M.Name yeeknL3coL.Parent = game.CoreGui yeeknL3coL.Adornee = fOkU7e6y5M.Character yeeknL3coL.FillTransparency = (bit32.bxor(131, 131).(bit32.bxor(814, 811) yeeknL3coL.OutlineTransparency = (bit32.bxor(191, 191) yeeknL3coL.FillColor = Color3.new((bit32.bxor(133, 132), (bit32.bxor(559, 558), (bit32.bxor(337, 336)) yeeknL3coL.OutlineColor = Color3.new((bit32.bxor(878, 879), (bit32.bxor(898, 899), (bit32.bxor(565, 564)) yeeknL3coL.Enabled = false hn3pJQgBSd[fOkU7e6y5M] = yeeknL3coL local vKjBgrZ1Eo = Drawing.new((function() local XIUFoIK6Wh={0x54,0x65,0x78,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) vKjBgrZ1Eo.Visible = false vKjBgrZ1Eo.Color = Color3.new((bit32.bxor(495, 494), (bit32.bxor(132, 133), (bit32.bxor(98, 99)) vKjBgrZ1Eo.Size = (bit32.bxor(560, 544) vKjBgrZ1Eo.Center = true vKjBgrZ1Eo.Outline = true vKjBgrZ1Eo.Transparency = (bit32.bxor(208, 209) vKjBgrZ1Eo.Font = (bit32.bxor(328, 330) gPPtWbuDw4[fOkU7e6y5M] = vKjBgrZ1Eo end local function XUQKkvwawL() Y8Styb4iD6 = not Y8Styb4iD6 if Y8Styb4iD6 then lTSWrGr9h7 = ksQf4FKlRc.Box UNIJ0fTrqa = ksQf4FKlRc.Chams LCCzXaEmeQ = ksQf4FKlRc.Name ZExzEUe0sg = ksQf4FKlRc.Distance jWhagbg8rU = ksQf4FKlRc.Health F3kKkA8AHb = ksQf4FKlRc.Weapon NjZWybHkRi = ksQf4FKlRc.Skeleton 3kENpttNjt = ksQf4FKlRc.Tracers for _, fOkU7e6y5M in ipairs(Players:GetPlayers()) do if fOkU7e6y5M ~= 9E8rJzVFu0 and fOkU7e6y5M.Character then 7flUuzTRnD(fOkU7e6y5M) end end h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x45,0x53,0x50,0x20,0x45,0x6e,0x61,0x62,0x6c,0x65,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(545, 547)) else ksQf4FKlRc.Box = lTSWrGr9h7 ksQf4FKlRc.Chams = UNIJ0fTrqa ksQf4FKlRc.Name = LCCzXaEmeQ ksQf4FKlRc.Distance = ZExzEUe0sg ksQf4FKlRc.Health = jWhagbg8rU ksQf4FKlRc.Weapon = F3kKkA8AHb ksQf4FKlRc.Skeleton = NjZWybHkRi ksQf4FKlRc.Tracers = 3kENpttNjt lTSWrGr9h7 = false UNIJ0fTrqa = false NjZWybHkRi = false 3kENpttNjt = false for fOkU7e6y5M in pairs(n8FxaQ4MbP) do VOujT5lhrV(fOkU7e6y5M) end h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x45,0x53,0x50,0x20,0x44,0x69,0x73,0x61,0x62,0x6c,0x65,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(611, 609)) end SLHwrVsGpH.BoxESPToggle:SetValue(lTSWrGr9h7) SLHwrVsGpH.ChamsESPToggle:SetValue(UNIJ0fTrqa) SLHwrVsGpH.SkeletonESPToggle:SetValue(NjZWybHkRi) SLHwrVsGpH.SkeletonESPTracers:SetValue(3kENpttNjt) end qtfng7mwTs:AddLabel((function() local XIUFoIK6Wh={0x45,0x53,0x50,0x20,0x4d,0x61,0x73,0x74,0x65,0x72,0x20,0x4b,0x65,0x79,0x62,0x69,0x6e,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()):AddKeyPicker((function() local XIUFoIK6Wh={0x45,0x53,0x50,0x4b,0x65,0x79,0x62,0x69,0x6e,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Default = "P", Mode = (function() local XIUFoIK6Wh={0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Text = (function() local XIUFoIK6Wh={0x45,0x53,0x50,0x20,0x4d,0x61,0x73,0x74,0x65,0x72,0x20,0x4b,0x65,0x79}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), NoUI = false, Callback = function(Value) XUQKkvwawL() end, }) qtfng7mwTs:AddToggle((function() local XIUFoIK6Wh={0x50,0x6c,0x61,0x79,0x65,0x72,0x45,0x53,0x50,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x45,0x6e,0x61,0x62,0x6c,0x65,0x20,0x50,0x6c,0x61,0x79,0x65,0x72,0x20,0x45,0x53,0x50}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) Y8Styb4iD6 = Value if not Value then XUQKkvwawL() end end, }) qtfng7mwTs:AddToggle((function() local XIUFoIK6Wh={0x42,0x6f,0x78,0x45,0x53,0x50,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x42,0x6f,0x78,0x20,0x45,0x53,0x50}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) lTSWrGr9h7 = Value ksQf4FKlRc.Box = Value end, }) qtfng7mwTs:AddToggle((function() local XIUFoIK6Wh={0x43,0x68,0x61,0x6d,0x73,0x45,0x53,0x50,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x43,0x68,0x61,0x6d,0x73,0x20,0x45,0x53,0x50}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) UNIJ0fTrqa = Value ksQf4FKlRc.Chams = Value end, }) qtfng7mwTs:AddToggle((function() local XIUFoIK6Wh={0x50,0x6c,0x61,0x79,0x65,0x72,0x45,0x53,0x50,0x4e,0x61,0x6d,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x4e,0x61,0x6d,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = true, Callback = function(Value) LCCzXaEmeQ = Value ksQf4FKlRc.Name = Value end, }) qtfng7mwTs:AddToggle((function() local XIUFoIK6Wh={0x50,0x6c,0x61,0x79,0x65,0x72,0x45,0x53,0x50,0x44,0x69,0x73,0x74,0x61,0x6e,0x63,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x44,0x69,0x73,0x74,0x61,0x6e,0x63,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = true, Callback = function(Value) ZExzEUe0sg = Value ksQf4FKlRc.Distance = Value end, }) qtfng7mwTs:AddToggle((function() local XIUFoIK6Wh={0x50,0x6c,0x61,0x79,0x65,0x72,0x45,0x53,0x50,0x48,0x65,0x61,0x6c,0x74,0x68}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x48,0x65,0x61,0x6c,0x74,0x68}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = true, Callback = function(Value) jWhagbg8rU = Value ksQf4FKlRc.Health = Value end, }) qtfng7mwTs:AddToggle((function() local XIUFoIK6Wh={0x50,0x6c,0x61,0x79,0x65,0x72,0x45,0x53,0x50,0x57,0x65,0x61,0x70,0x6f,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x45,0x71,0x75,0x69,0x70,0x70,0x65,0x64,0x20,0x57,0x65,0x61,0x70,0x6f,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = true, Callback = function(Value) F3kKkA8AHb = Value ksQf4FKlRc.Weapon = Value end, }) local function rOgRm4YE56(fOkU7e6y5M) if fOkU7e6y5M == 9E8rJzVFu0 then return end fOkU7e6y5M.CharacterAdded:Connect(function(Ukcoj08yB2) task.wait((bit32.bxor(594, 594).(bit32.bxor(861, 860)) if Y8Styb4iD6 then 7flUuzTRnD(fOkU7e6y5M) end end) fOkU7e6y5M.CharacterRemoving:Connect(function() VOujT5lhrV(fOkU7e6y5M) end) if fOkU7e6y5M.Character then task.wait((bit32.bxor(148, 148).(bit32.bxor(274, 275)) 7flUuzTRnD(fOkU7e6y5M) end end for _, fOkU7e6y5M in ipairs(Players:GetPlayers()) do rOgRm4YE56(fOkU7e6y5M) end Players.PlayerAdded:Connect(function(fOkU7e6y5M) rOgRm4YE56(fOkU7e6y5M) end) Players.PlayerRemoving:Connect(function(fOkU7e6y5M) VOujT5lhrV(fOkU7e6y5M) end) ugkRPp419n[(function() local XIUFoIK6Wh={0x50,0x6c,0x61,0x79,0x65,0x72,0x45,0x53,0x50}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()] = RunService.Heartbeat:Connect(function() if not Y8Styb4iD6 then return end local JwcRmu8iUr = tick() % (bit32.bxor(852, 849) / (bit32.bxor(674, 679) local eSY6cSsqq3 = Color3.fromHSV(JwcRmu8iUr, (bit32.bxor(882, 883), (bit32.bxor(750, 751)) for _, fOkU7e6y5M in ipairs(Players:GetPlayers()) do if fOkU7e6y5M == 9E8rJzVFu0 then continue end if not fOkU7e6y5M.Character or not fOkU7e6y5M.Character.Parent then VOujT5lhrV(fOkU7e6y5M) continue end local CKaGMPuJ3A = fOkU7e6y5M.Character:FindFirstChild((function() local XIUFoIK6Wh={0x48,0x75,0x6d,0x61,0x6e,0x6f,0x69,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local YNrSxkgD9u = fOkU7e6y5M.Character:FindFirstChild((function() local XIUFoIK6Wh={0x48,0x75,0x6d,0x61,0x6e,0x6f,0x69,0x64,0x52,0x6f,0x6f,0x74,0x50,0x61,0x72,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) if not CKaGMPuJ3A or not YNrSxkgD9u then VOujT5lhrV(fOkU7e6y5M) continue end if CnQjLtGPiq and CKaGMPuJ3A.Health <= (bit32.bxor(877, 877) then VOujT5lhrV(fOkU7e6y5M) continue end if not n8FxaQ4MbP[fOkU7e6y5M] then 7flUuzTRnD(fOkU7e6y5M) end local 3wVDyDz7aQ, onScreen = CixscGb2xm:WorldToViewportPoint(YNrSxkgD9u.Position) if onScreen then if gPPtWbuDw4[fOkU7e6y5M] then local sCDcEZ0Arh = "" if LCCzXaEmeQ then sCDcEZ0Arh = sCDcEZ0Arh .. fOkU7e6y5M.Name .. (function() local XIUFoIK6Wh={0x5c,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() end if ZExzEUe0sg then local UC2ds1tQtG = dxGlTyZQwx() if UC2ds1tQtG then sCDcEZ0Arh = sCDcEZ0Arh .. math.floor((UC2ds1tQtG.Position - YNrSxkgD9u.Position).Magnitude) .. (function() local XIUFoIK6Wh={0x20,0x73,0x74,0x75,0x64,0x73,0x5c,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() end end if jWhagbg8rU then sCDcEZ0Arh = sCDcEZ0Arh .. math.floor(CKaGMPuJ3A.Health) .. "/" .. CKaGMPuJ3A.MaxHealth .. (function() local XIUFoIK6Wh={0x5c,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() end if F3kKkA8AHb then local iSk5EfgF9k = fOkU7e6y5M.Character:FindFirstChildOfClass((function() local XIUFoIK6Wh={0x54,0x6f,0x6f,0x6c}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) or fOkU7e6y5M.Backpack:FindFirstChildOfClass((function() local XIUFoIK6Wh={0x54,0x6f,0x6f,0x6c}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) if iSk5EfgF9k then sCDcEZ0Arh = sCDcEZ0Arh .. iSk5EfgF9k.Name end end gPPtWbuDw4[fOkU7e6y5M].Text = sCDcEZ0Arh gPPtWbuDw4[fOkU7e6y5M].Position = Vector2.new(3wVDyDz7aQ.X, 3wVDyDz7aQ.Y - (bit32.bxor(941, 927)) gPPtWbuDw4[fOkU7e6y5M].Visible = true if 70W1fUpvaO then gPPtWbuDw4[fOkU7e6y5M].Color = eSY6cSsqq3 end end if lTSWrGr9h7 and n8FxaQ4MbP[fOkU7e6y5M] then local BgVqggVpcZ, minY = math.huge, math.huge local cTkHXHk2Q1, maxY = -math.huge, -math.huge for _, juwZmsf5xM in ipairs(fOkU7e6y5M.Character:GetDescendants()) do if juwZmsf5xM:IsA((function() local XIUFoIK6Wh={0x42,0x61,0x73,0x65,0x50,0x61,0x72,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) then local HWhUlcsG3j = { juwZmsf5xM.CFrame * CFrame.new(juwZmsf5xM.Size.X/(bit32.bxor(9, 11), juwZmsf5xM.Size.Y/(bit32.bxor(538, 536), juwZmsf5xM.Size.Z/(bit32.bxor(381, 383)).Position, juwZmsf5xM.CFrame * CFrame.new(juwZmsf5xM.Size.X/(bit32.bxor(115, 113), juwZmsf5xM.Size.Y/(bit32.bxor(340, 342), -juwZmsf5xM.Size.Z/(bit32.bxor(777, 779)).Position, juwZmsf5xM.CFrame * CFrame.new(juwZmsf5xM.Size.X/(bit32.bxor(74, 72), -juwZmsf5xM.Size.Y/(bit32.bxor(303, 301), juwZmsf5xM.Size.Z/(bit32.bxor(789, 791)).Position, juwZmsf5xM.CFrame * CFrame.new(juwZmsf5xM.Size.X/(bit32.bxor(34, 32), -juwZmsf5xM.Size.Y/(bit32.bxor(18, 16), -juwZmsf5xM.Size.Z/(bit32.bxor(556, 558)).Position, juwZmsf5xM.CFrame * CFrame.new(-juwZmsf5xM.Size.X/(bit32.bxor(78, 76), juwZmsf5xM.Size.Y/(bit32.bxor(215, 213), juwZmsf5xM.Size.Z/(bit32.bxor(354, 352)).Position, juwZmsf5xM.CFrame * CFrame.new(-juwZmsf5xM.Size.X/(bit32.bxor(413, 415), juwZmsf5xM.Size.Y/(bit32.bxor(482, 480), -juwZmsf5xM.Size.Z/(bit32.bxor(176, 178)).Position, juwZmsf5xM.CFrame * CFrame.new(-juwZmsf5xM.Size.X/(bit32.bxor(703, 701), -juwZmsf5xM.Size.Y/(bit32.bxor(744, 746), juwZmsf5xM.Size.Z/(bit32.bxor(45, 47)).Position, juwZmsf5xM.CFrame * CFrame.new(-juwZmsf5xM.Size.X/(bit32.bxor(740, 742), -juwZmsf5xM.Size.Y/(bit32.bxor(448, 450), -juwZmsf5xM.Size.Z/(bit32.bxor(341, 343)).Position } for _, corner in ipairs(HWhUlcsG3j) do local 29fym0CxIO = CixscGb2xm:WorldToViewportPoint(corner) BgVqggVpcZ = math.min(BgVqggVpcZ, 29fym0CxIO.X) cTkHXHk2Q1 = math.max(cTkHXHk2Q1, 29fym0CxIO.X) minY = math.min(minY, 29fym0CxIO.Y) maxY = math.max(maxY, 29fym0CxIO.Y) end end end n8FxaQ4MbP[fOkU7e6y5M].Size = Vector2.new(cTkHXHk2Q1 - BgVqggVpcZ, maxY - minY) n8FxaQ4MbP[fOkU7e6y5M].Position = Vector2.new(BgVqggVpcZ, minY) n8FxaQ4MbP[fOkU7e6y5M].Visible = true if 70W1fUpvaO then n8FxaQ4MbP[fOkU7e6y5M].Color = eSY6cSsqq3 end end else if gPPtWbuDw4[fOkU7e6y5M] then gPPtWbuDw4[fOkU7e6y5M].Visible = false end if n8FxaQ4MbP[fOkU7e6y5M] then n8FxaQ4MbP[fOkU7e6y5M].Visible = false end end if UNIJ0fTrqa and hn3pJQgBSd[fOkU7e6y5M] then if hn3pJQgBSd[fOkU7e6y5M].Adornee ~= fOkU7e6y5M.Character then hn3pJQgBSd[fOkU7e6y5M].Adornee = fOkU7e6y5M.Character end hn3pJQgBSd[fOkU7e6y5M].Enabled = true if 70W1fUpvaO then hn3pJQgBSd[fOkU7e6y5M].FillColor = eSY6cSsqq3 hn3pJQgBSd[fOkU7e6y5M].OutlineColor = eSY6cSsqq3 end elseif hn3pJQgBSd[fOkU7e6y5M] then hn3pJQgBSd[fOkU7e6y5M].Enabled = false end end end) local NjZWybHkRi = false local 3kENpttNjt = false qzhIMkqQoV:AddToggle((function() local XIUFoIK6Wh={0x53,0x6b,0x65,0x6c,0x65,0x74,0x6f,0x6e,0x45,0x53,0x50,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x53,0x6b,0x65,0x6c,0x65,0x74,0x6f,0x6e,0x20,0x45,0x53,0x50}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x46,0x75,0x6c,0x6c,0x20,0x70,0x6c,0x61,0x79,0x65,0x72,0x20,0x73,0x6b,0x65,0x6c,0x65,0x74,0x6f,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) NjZWybHkRi = Value ksQf4FKlRc.Skeleton = Value end, }) qzhIMkqQoV:AddToggle((function() local XIUFoIK6Wh={0x53,0x6b,0x65,0x6c,0x65,0x74,0x6f,0x6e,0x45,0x53,0x50,0x54,0x72,0x61,0x63,0x65,0x72,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x54,0x72,0x61,0x63,0x65,0x72,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) 3kENpttNjt = Value ksQf4FKlRc.Tracers = Value end, }) local function dWUt9xu7NS(juwZmsf5xM) return juwZmsf5xM and juwZmsf5xM.Position or nil end ugkRPp419n[(function() local XIUFoIK6Wh={0x53,0x6b,0x65,0x6c,0x65,0x74,0x6f,0x6e,0x45,0x53,0x50}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()] = RunService.Heartbeat:Connect(function() if not NjZWybHkRi then return end local JwcRmu8iUr = tick() % (bit32.bxor(138, 143) / (bit32.bxor(871, 866) local eSY6cSsqq3 = Color3.fromHSV(JwcRmu8iUr, (bit32.bxor(602, 603), (bit32.bxor(333, 332)) for _, fOkU7e6y5M in ipairs(Players:GetPlayers()) do if fOkU7e6y5M == 9E8rJzVFu0 then continue end if not fOkU7e6y5M.Character or not fOkU7e6y5M.Character.Parent then if tKZZnAalFv[fOkU7e6y5M] then VOujT5lhrV(fOkU7e6y5M) end continue end local CKaGMPuJ3A = fOkU7e6y5M.Character:FindFirstChild((function() local XIUFoIK6Wh={0x48,0x75,0x6d,0x61,0x6e,0x6f,0x69,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) if not CKaGMPuJ3A or (CnQjLtGPiq and CKaGMPuJ3A.Health <= (bit32.bxor(215, 215)) then if tKZZnAalFv[fOkU7e6y5M] then VOujT5lhrV(fOkU7e6y5M) end continue end if not tKZZnAalFv[fOkU7e6y5M] then tKZZnAalFv[fOkU7e6y5M] = { lines = {}, IGfvCkCBxZ = nil } for i = (bit32.bxor(23, 22), (bit32.bxor(128, 142) do local iOa9mJbMeL = Drawing.new((function() local XIUFoIK6Wh={0x4c,0x69,0x6e,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) iOa9mJbMeL.Visible = false iOa9mJbMeL.Color = Color3.new((bit32.bxor(471, 470),(bit32.bxor(488, 489),(bit32.bxor(14, 15)) iOa9mJbMeL.Thickness = (bit32.bxor(826, 824) iOa9mJbMeL.Transparency = (bit32.bxor(421, 420) tKZZnAalFv[fOkU7e6y5M].lines[i] = iOa9mJbMeL end end local Ukcoj08yB2 = fOkU7e6y5M.Character local SPO4cmwaR9 = { {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x48,0x65,0x61,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x55,0x70,0x70,0x65,0x72,0x54,0x6f,0x72,0x73,0x6f}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())}, {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x55,0x70,0x70,0x65,0x72,0x54,0x6f,0x72,0x73,0x6f}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x4c,0x6f,0x77,0x65,0x72,0x54,0x6f,0x72,0x73,0x6f}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())}, {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x55,0x70,0x70,0x65,0x72,0x54,0x6f,0x72,0x73,0x6f}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x4c,0x65,0x66,0x74,0x55,0x70,0x70,0x65,0x72,0x41,0x72,0x6d}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())}, {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x4c,0x65,0x66,0x74,0x55,0x70,0x70,0x65,0x72,0x41,0x72,0x6d}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x4c,0x65,0x66,0x74,0x4c,0x6f,0x77,0x65,0x72,0x41,0x72,0x6d}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())}, {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x4c,0x65,0x66,0x74,0x4c,0x6f,0x77,0x65,0x72,0x41,0x72,0x6d}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x4c,0x65,0x66,0x74,0x48,0x61,0x6e,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())}, {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x55,0x70,0x70,0x65,0x72,0x54,0x6f,0x72,0x73,0x6f}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x52,0x69,0x67,0x68,0x74,0x55,0x70,0x70,0x65,0x72,0x41,0x72,0x6d}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())}, {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x52,0x69,0x67,0x68,0x74,0x55,0x70,0x70,0x65,0x72,0x41,0x72,0x6d}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x52,0x69,0x67,0x68,0x74,0x4c,0x6f,0x77,0x65,0x72,0x41,0x72,0x6d}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())}, {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x52,0x69,0x67,0x68,0x74,0x4c,0x6f,0x77,0x65,0x72,0x41,0x72,0x6d}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x52,0x69,0x67,0x68,0x74,0x48,0x61,0x6e,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())}, {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x4c,0x6f,0x77,0x65,0x72,0x54,0x6f,0x72,0x73,0x6f}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x4c,0x65,0x66,0x74,0x55,0x70,0x70,0x65,0x72,0x4c,0x65,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())}, {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x4c,0x65,0x66,0x74,0x55,0x70,0x70,0x65,0x72,0x4c,0x65,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x4c,0x65,0x66,0x74,0x4c,0x6f,0x77,0x65,0x72,0x4c,0x65,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())}, {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x4c,0x65,0x66,0x74,0x4c,0x6f,0x77,0x65,0x72,0x4c,0x65,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x4c,0x65,0x66,0x74,0x46,0x6f,0x6f,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())}, {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x4c,0x6f,0x77,0x65,0x72,0x54,0x6f,0x72,0x73,0x6f}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x52,0x69,0x67,0x68,0x74,0x55,0x70,0x70,0x65,0x72,0x4c,0x65,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())}, {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x52,0x69,0x67,0x68,0x74,0x55,0x70,0x70,0x65,0x72,0x4c,0x65,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x52,0x69,0x67,0x68,0x74,0x4c,0x6f,0x77,0x65,0x72,0x4c,0x65,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())}, {Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x52,0x69,0x67,0x68,0x74,0x4c,0x6f,0x77,0x65,0x72,0x4c,0x65,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()), Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x52,0x69,0x67,0x68,0x74,0x46,0x6f,0x6f,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)())} } for i, pair in ipairs(SPO4cmwaR9) do local DdF0EBGItR, endPart = pair[(bit32.bxor(612, 613)], pair[(bit32.bxor(12, 14)] if DdF0EBGItR and endPart then local 8F3KX5Z8Xm = dWUt9xu7NS(DdF0EBGItR) local 0Nx7NjiCCj = dWUt9xu7NS(endPart) if 8F3KX5Z8Xm and 0Nx7NjiCCj then local 0aV9e0bdrl, startOn = CixscGb2xm:WorldToViewportPoint(8F3KX5Z8Xm) local ihob8cxzFP, endOn = CixscGb2xm:WorldToViewportPoint(0Nx7NjiCCj) local iOa9mJbMeL = tKZZnAalFv[fOkU7e6y5M].lines[i] if startOn and endOn and iOa9mJbMeL then iOa9mJbMeL.From = Vector2.new(0aV9e0bdrl.X, 0aV9e0bdrl.Y) iOa9mJbMeL.To = Vector2.new(ihob8cxzFP.X, ihob8cxzFP.Y) iOa9mJbMeL.Visible = true if 70W1fUpvaO then iOa9mJbMeL.Color = eSY6cSsqq3 end elseif iOa9mJbMeL then iOa9mJbMeL.Visible = false end elseif tKZZnAalFv[fOkU7e6y5M].lines[i] then tKZZnAalFv[fOkU7e6y5M].lines[i].Visible = false end elseif tKZZnAalFv[fOkU7e6y5M].lines[i] then tKZZnAalFv[fOkU7e6y5M].lines[i].Visible = false end end if 3kENpttNjt then local YNrSxkgD9u = Ukcoj08yB2:FindFirstChild((function() local XIUFoIK6Wh={0x48,0x75,0x6d,0x61,0x6e,0x6f,0x69,0x64,0x52,0x6f,0x6f,0x74,0x50,0x61,0x72,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) if YNrSxkgD9u then local 3wVDyDz7aQ, onScreen = CixscGb2xm:WorldToViewportPoint(YNrSxkgD9u.Position) if onScreen then if not tKZZnAalFv[fOkU7e6y5M].IGfvCkCBxZ then local IGfvCkCBxZ = Drawing.new((function() local XIUFoIK6Wh={0x4c,0x69,0x6e,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) IGfvCkCBxZ.Thickness = (bit32.bxor(271, 269) IGfvCkCBxZ.Transparency = (bit32.bxor(466, 467) IGfvCkCBxZ.Color = Color3.new((bit32.bxor(230, 231),(bit32.bxor(823, 822),(bit32.bxor(429, 428)) tKZZnAalFv[fOkU7e6y5M].IGfvCkCBxZ = IGfvCkCBxZ end local IGfvCkCBxZ = tKZZnAalFv[fOkU7e6y5M].IGfvCkCBxZ IGfvCkCBxZ.From = Vector2.new(CixscGb2xm.ViewportSize.X / (bit32.bxor(838, 836), CixscGb2xm.ViewportSize.Y) IGfvCkCBxZ.To = Vector2.new(3wVDyDz7aQ.X, 3wVDyDz7aQ.Y) IGfvCkCBxZ.Visible = true if 70W1fUpvaO then IGfvCkCBxZ.Color = eSY6cSsqq3 end else if tKZZnAalFv[fOkU7e6y5M].IGfvCkCBxZ then tKZZnAalFv[fOkU7e6y5M].IGfvCkCBxZ.Visible = false end end end else if tKZZnAalFv[fOkU7e6y5M] and tKZZnAalFv[fOkU7e6y5M].IGfvCkCBxZ then tKZZnAalFv[fOkU7e6y5M].IGfvCkCBxZ.Visible = false end end end end) 47E9rBQEcZ:AddToggle((function() local XIUFoIK6Wh={0x44,0x65,0x61,0x64,0x45,0x53,0x50,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x48,0x69,0x64,0x65,0x20,0x44,0x65,0x61,0x64,0x20,0x45,0x53,0x50}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x41,0x75,0x74,0x6f,0x6d,0x61,0x74,0x69,0x63,0x61,0x6c,0x6c,0x79,0x20,0x72,0x65,0x6d,0x6f,0x76,0x65,0x20,0x45,0x53,0x50,0x20,0x66,0x72,0x6f,0x6d,0x20,0x64,0x65,0x61,0x64,0x20,0x70,0x6c,0x61,0x79,0x65,0x72,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = true, Callback = function(Value) CnQjLtGPiq = Value end, }) 47E9rBQEcZ:AddToggle((function() local XIUFoIK6Wh={0x52,0x61,0x69,0x6e,0x62,0x6f,0x77,0x4d,0x6f,0x64,0x65,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x52,0x61,0x69,0x6e,0x62,0x6f,0x77,0x20,0x4d,0x6f,0x64,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x41,0x6e,0x69,0x6d,0x61,0x74,0x65,0x64,0x20,0x63,0x6f,0x6c,0x6f,0x72,0x73,0x20,0x6f,0x6e,0x20,0x61,0x6c,0x6c,0x20,0x45,0x53,0x50,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) 70W1fUpvaO = Value end, }) local qVAoB1RA4P = xteUvCVWKY.Movement:AddLeftGroupbox((function() local XIUFoIK6Wh={0x4d,0x6f,0x76,0x65,0x6d,0x65,0x6e,0x74,0x20,0x4f,0x70,0x74,0x69,0x6f,0x6e,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local 3AF8mp00ax = xteUvCVWKY.Movement:AddRightGroupbox((function() local XIUFoIK6Wh={0x41,0x64,0x64,0x69,0x74,0x69,0x6f,0x6e,0x61,0x6c,0x20,0x4d,0x6f,0x76,0x65,0x6d,0x65,0x6e,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local vNZAPPFQQR = false local xJKlwPssRP = (bit32.bxor(807, 813) local i2F6DFtLDi qVAoB1RA4P:AddToggle((function() local XIUFoIK6Wh={0x46,0x6c,0x79,0x48,0x61,0x63,0x6b,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x46,0x6c,0x79,0x20,0x48,0x61,0x63,0x6b}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x46,0x72,0x65,0x65,0x20,0x66,0x6c,0x69,0x67,0x68,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) vNZAPPFQQR = Value if Value then local YNrSxkgD9u = dxGlTyZQwx() if YNrSxkgD9u then YNrSxkgD9u.Anchored = false if not i2F6DFtLDi then i2F6DFtLDi = Instance.new((function() local XIUFoIK6Wh={0x42,0x6f,0x64,0x79,0x56,0x65,0x6c,0x6f,0x63,0x69,0x74,0x79}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) i2F6DFtLDi.MaxForce = Vector3.new((bit32.bxor(3185, 977), (bit32.bxor(3763, 275), (bit32.bxor(3753, 265)) i2F6DFtLDi.Velocity = Vector3.zero i2F6DFtLDi.Parent = YNrSxkgD9u end end else if i2F6DFtLDi then i2F6DFtLDi:Destroy() i2F6DFtLDi = nil end end end, }) qVAoB1RA4P:AddSlider((function() local XIUFoIK6Wh={0x46,0x6c,0x79,0x48,0x61,0x63,0x6b,0x53,0x70,0x65,0x65,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x46,0x6c,0x79,0x20,0x53,0x70,0x65,0x65,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = (bit32.bxor(923, 913), Min = (bit32.bxor(629, 628), Max = (bit32.bxor(662, 754), Rounding = (bit32.bxor(365, 365), Callback = function(Value) xJKlwPssRP = Value end, }) qVAoB1RA4P:AddLabel((function() local XIUFoIK6Wh={0x46,0x6c,0x79,0x20,0x4b,0x65,0x79,0x62,0x69,0x6e,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()):AddKeyPicker((function() local XIUFoIK6Wh={0x46,0x6c,0x79,0x4b,0x65,0x79,0x62,0x69,0x6e,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Default = "F", Mode = (function() local XIUFoIK6Wh={0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Text = (function() local XIUFoIK6Wh={0x46,0x6c,0x79,0x20,0x4b,0x65,0x79}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), NoUI = false, Callback = function(Value) vNZAPPFQQR = Value SLHwrVsGpH.FlyHackToggle:SetValue(Value) end, }) ugkRPp419n[(function() local XIUFoIK6Wh={0x46,0x6c,0x79}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()] = RunService.Heartbeat:Connect(function() if vNZAPPFQQR and i2F6DFtLDi and i2F6DFtLDi.Parent then local UPFep8LwVH = Vector3.zero if 3Jtu5IwlpS:IsKeyDown(Enum.KeyCode.W) then UPFep8LwVH += CixscGb2xm.CFrame.LookVector end if 3Jtu5IwlpS:IsKeyDown(Enum.KeyCode.S) then UPFep8LwVH -= CixscGb2xm.CFrame.LookVector end if 3Jtu5IwlpS:IsKeyDown(Enum.KeyCode.A) then UPFep8LwVH -= CixscGb2xm.CFrame.RightVector end if 3Jtu5IwlpS:IsKeyDown(Enum.KeyCode.D) then UPFep8LwVH += CixscGb2xm.CFrame.RightVector end if 3Jtu5IwlpS:IsKeyDown(Enum.KeyCode.Space) then UPFep8LwVH += Vector3.new((bit32.bxor(199, 199), (bit32.bxor(783, 782), (bit32.bxor(783, 783)) end if 3Jtu5IwlpS:IsKeyDown(Enum.KeyCode.LeftShift) then UPFep8LwVH -= Vector3.new((bit32.bxor(594, 594), (bit32.bxor(905, 904), (bit32.bxor(276, 276)) end if UPFep8LwVH.Magnitude > (bit32.bxor(49, 49) then i2F6DFtLDi.Velocity = UPFep8LwVH.Unit * xJKlwPssRP else i2F6DFtLDi.Velocity = Vector3.zero end end end) local CKVA201vUn = false local ykRC0dHZm4 3AF8mp00ax:AddToggle((function() local XIUFoIK6Wh={0x49,0x6e,0x66,0x69,0x6e,0x69,0x74,0x65,0x4a,0x75,0x6d,0x70,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x49,0x6e,0x66,0x69,0x6e,0x69,0x74,0x65,0x20,0x4a,0x75,0x6d,0x70}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x55,0x6e,0x6c,0x69,0x6d,0x69,0x74,0x65,0x64,0x20,0x6a,0x75,0x6d,0x70,0x73,0x20,0x77,0x69,0x74,0x68,0x6f,0x75,0x74,0x20,0x63,0x6f,0x6f,0x6c,0x64,0x6f,0x77,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) CKVA201vUn = Value if Value then ykRC0dHZm4 = 3Jtu5IwlpS.JumpRequest:Connect(function() local CKaGMPuJ3A = oXijK7i39d() if CKaGMPuJ3A then CKaGMPuJ3A:ChangeState(Enum.HumanoidStateType.Jumping) end end) else if ykRC0dHZm4 then ykRC0dHZm4:Disconnect() ykRC0dHZm4 = nil end end end, }) local 5t0Yu96ukI = false 3AF8mp00ax:AddToggle((function() local XIUFoIK6Wh={0x4e,0x6f,0x43,0x6c,0x69,0x70,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x4e,0x6f,0x20,0x43,0x6c,0x69,0x70}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x57,0x61,0x6c,0x6b,0x20,0x74,0x68,0x72,0x6f,0x75,0x67,0x68,0x20,0x77,0x61,0x6c,0x6c,0x73,0x2f,0x6f,0x62,0x6a,0x65,0x63,0x74,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) 5t0Yu96ukI = Value end, }) ugkRPp419n[(function() local XIUFoIK6Wh={0x4e,0x6f,0x43,0x6c,0x69,0x70}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()] = RunService.Stepped:Connect(function() if 5t0Yu96ukI then pcall(function() for _, juwZmsf5xM in ipairs(d43SZRHqdr():GetDescendants()) do if juwZmsf5xM:IsA((function() local XIUFoIK6Wh={0x42,0x61,0x73,0x65,0x50,0x61,0x72,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) then juwZmsf5xM.CanCollide = false end end end) end end) local xMhaHakjvi = false 3AF8mp00ax:AddToggle((function() local XIUFoIK6Wh={0x42,0x75,0x6e,0x6e,0x79,0x48,0x6f,0x70,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x42,0x75,0x6e,0x6e,0x79,0x20,0x48,0x6f,0x70}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x41,0x75,0x74,0x6f,0x2d,0x6a,0x75,0x6d,0x70,0x20,0x66,0x6f,0x72,0x20,0x6d,0x6f,0x6d,0x65,0x6e,0x74,0x75,0x6d,0x20,0x67,0x61,0x69,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) xMhaHakjvi = Value end, }) ugkRPp419n[(function() local XIUFoIK6Wh={0x42,0x75,0x6e,0x6e,0x79,0x48,0x6f,0x70}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()] = RunService.Heartbeat:Connect(function() if xMhaHakjvi then pcall(function() local CKaGMPuJ3A = oXijK7i39d() if CKaGMPuJ3A and CKaGMPuJ3A.MoveDirection.Magnitude > (bit32.bxor(404, 404) and CKaGMPuJ3A.FloorMaterial ~= Enum.Material.Air then CKaGMPuJ3A:ChangeState(Enum.HumanoidStateType.Jumping) end end) end end) local zM5RRKzWGR = xteUvCVWKY.Protection:AddLeftGroupbox((function() local XIUFoIK6Wh={0x50,0x72,0x6f,0x74,0x65,0x63,0x74,0x69,0x6f,0x6e,0x20,0x4f,0x70,0x74,0x69,0x6f,0x6e,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local I37MJFp0c1 = false local QV4N9HOn3h = (function() local XIUFoIK6Wh={0x53,0x70,0x69,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() local oc3aR9fb9Y = (bit32.bxor(547, 553) zM5RRKzWGR:AddToggle((function() local XIUFoIK6Wh={0x41,0x6e,0x74,0x69,0x41,0x69,0x6d,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x41,0x6e,0x74,0x69,0x2d,0x41,0x69,0x6d}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x44,0x65,0x66,0x6c,0x65,0x63,0x74,0x73,0x20,0x65,0x6e,0x65,0x6d,0x79,0x20,0x61,0x69,0x6d,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) I37MJFp0c1 = Value end, }) zM5RRKzWGR:AddDropdown((function() local XIUFoIK6Wh={0x41,0x6e,0x74,0x69,0x41,0x69,0x6d,0x4d,0x6f,0x64,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Values = { (function() local XIUFoIK6Wh={0x53,0x70,0x69,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x4a,0x69,0x74,0x74,0x65,0x72}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x52,0x61,0x6e,0x64,0x6f,0x6d}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() }, Default = (bit32.bxor(778, 779), Multi = false, Text = (function() local XIUFoIK6Wh={0x4d,0x6f,0x64,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Callback = function(Value) QV4N9HOn3h = Value end, }) zM5RRKzWGR:AddSlider((function() local XIUFoIK6Wh={0x41,0x6e,0x74,0x69,0x41,0x69,0x6d,0x53,0x70,0x65,0x65,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x53,0x70,0x69,0x6e,0x20,0x53,0x70,0x65,0x65,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = (bit32.bxor(846, 836), Min = (bit32.bxor(428, 429), Max = (bit32.bxor(24, 42), Rounding = (bit32.bxor(696, 696), Callback = function(Value) oc3aR9fb9Y = Value end, }) local xuV8kB6pmO = false local 9FsWX8B4oR = nil local AWu9lMsHis = nil local 1OMEqgG9bW = nil zM5RRKzWGR:AddToggle((function() local XIUFoIK6Wh={0x46,0x6f,0x72,0x63,0x65,0x54,0x68,0x69,0x72,0x64,0x50,0x65,0x72,0x73,0x6f,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x46,0x6f,0x72,0x63,0x65,0x20,0x54,0x68,0x69,0x72,0x64,0x20,0x50,0x65,0x72,0x73,0x6f,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x46,0x6f,0x72,0x63,0x65,0x73,0x20,0x74,0x68,0x69,0x72,0x64,0x20,0x70,0x65,0x72,0x73,0x6f,0x6e,0x20,0x76,0x69,0x65,0x77,0x20,0x66,0x6f,0x72,0x20,0x62,0x65,0x74,0x74,0x65,0x72,0x20,0x41,0x6e,0x74,0x69,0x2d,0x41,0x69,0x6d}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) xuV8kB6pmO = Value if Value then 9FsWX8B4oR = 9E8rJzVFu0.CameraMode AWu9lMsHis = 9E8rJzVFu0.CameraMaxZoomDistance 1OMEqgG9bW = 9E8rJzVFu0.CameraMinZoomDistance 9E8rJzVFu0.CameraMode = Enum.CameraMode.Classic 9E8rJzVFu0.CameraMaxZoomDistance = (bit32.bxor(731, 745) 9E8rJzVFu0.CameraMinZoomDistance = (bit32.bxor(866, 871) task.spawn(function() wait((bit32.bxor(117, 117).(bit32.bxor(314, 315)) if 9E8rJzVFu0.CameraMode ~= Enum.CameraMode.Classic then 9E8rJzVFu0.CameraMode = Enum.CameraMode.Classic end end) h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x54,0x68,0x69,0x72,0x64,0x20,0x50,0x65,0x72,0x73,0x6f,0x6e,0x20,0x45,0x6e,0x61,0x62,0x6c,0x65,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(886, 884)) else if 9FsWX8B4oR then 9E8rJzVFu0.CameraMode = 9FsWX8B4oR else 9E8rJzVFu0.CameraMode = Enum.CameraMode.Classic end if AWu9lMsHis then 9E8rJzVFu0.CameraMaxZoomDistance = AWu9lMsHis else 9E8rJzVFu0.CameraMaxZoomDistance = (bit32.bxor(491, 363) end if 1OMEqgG9bW then 9E8rJzVFu0.CameraMinZoomDistance = 1OMEqgG9bW else 9E8rJzVFu0.CameraMinZoomDistance = (bit32.bxor(846, 846).(bit32.bxor(864, 869) end h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x54,0x68,0x69,0x72,0x64,0x20,0x50,0x65,0x72,0x73,0x6f,0x6e,0x20,0x44,0x69,0x73,0x61,0x62,0x6c,0x65,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(369, 371)) end end, }) ugkRPp419n[(function() local XIUFoIK6Wh={0x54,0x68,0x69,0x72,0x64,0x50,0x65,0x72,0x73,0x6f,0x6e,0x43,0x68,0x65,0x63,0x6b}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()] = RunService.Heartbeat:Connect(function() if xuV8kB6pmO then if 9E8rJzVFu0.CameraMode ~= Enum.CameraMode.Classic then 9E8rJzVFu0.CameraMode = Enum.CameraMode.Classic end if 9E8rJzVFu0.CameraMaxZoomDistance < (bit32.bxor(466, 454) then 9E8rJzVFu0.CameraMaxZoomDistance = (bit32.bxor(375, 325) end if 9E8rJzVFu0.CameraMinZoomDistance > (bit32.bxor(67, 73) then 9E8rJzVFu0.CameraMinZoomDistance = (bit32.bxor(440, 445) end end if I37MJFp0c1 then pcall(function() local YNrSxkgD9u = dxGlTyZQwx() if YNrSxkgD9u then if QV4N9HOn3h == (function() local XIUFoIK6Wh={0x53,0x70,0x69,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() then YNrSxkgD9u.CFrame = YNrSxkgD9u.CFrame * CFrame.Angles((bit32.bxor(554, 554), math.rad(oc3aR9fb9Y), (bit32.bxor(212, 212)) elseif QV4N9HOn3h == (function() local XIUFoIK6Wh={0x4a,0x69,0x74,0x74,0x65,0x72}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() then YNrSxkgD9u.CFrame = YNrSxkgD9u.CFrame * CFrame.Angles((bit32.bxor(976, 976), math.rad(math.random(-(bit32.bxor(633, 717), (bit32.bxor(439, 259))), (bit32.bxor(691, 691)) elseif QV4N9HOn3h == (function() local XIUFoIK6Wh={0x52,0x61,0x6e,0x64,0x6f,0x6d}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() then YNrSxkgD9u.CFrame = YNrSxkgD9u.CFrame * CFrame.Angles( math.rad(math.random(-(bit32.bxor(986, 991), (bit32.bxor(142, 139))), math.rad(math.random(-(bit32.bxor(1021, 841), (bit32.bxor(700, 520))), math.rad(math.random(-(bit32.bxor(602, 607), (bit32.bxor(556, 553))) ) end end end) end end) local JZ5BncSF03 = xteUvCVWKY.Extras:AddLeftGroupbox((function() local XIUFoIK6Wh={0x45,0x78,0x74,0x72,0x61,0x73,0x20,0x4f,0x70,0x74,0x69,0x6f,0x6e,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local jPIBaEcKmk = false JZ5BncSF03:AddToggle((function() local XIUFoIK6Wh={0x46,0x50,0x53,0x42,0x6f,0x6f,0x73,0x74,0x54,0x6f,0x67,0x67,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x46,0x50,0x53,0x20,0x42,0x6f,0x6f,0x73,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x4f,0x70,0x74,0x69,0x6d,0x69,0x7a,0x65,0x73,0x20,0x70,0x65,0x72,0x66,0x6f,0x72,0x6d,0x61,0x6e,0x63,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = false, Callback = function(Value) jPIBaEcKmk = Value if Value then pcall(function() local W5SOmwRYfv = game:GetService((function() local XIUFoIK6Wh={0x4c,0x69,0x67,0x68,0x74,0x69,0x6e,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) W5SOmwRYfv.GlobalShadows = false W5SOmwRYfv.FogEnd = 9e9 settings().Rendering.QualityLevel = Enum.QualityLevel.Level01 for _, v in pairs(workspace:GetDescendants()) do if v:IsA((function() local XIUFoIK6Wh={0x50,0x61,0x72,0x74,0x69,0x63,0x6c,0x65,0x45,0x6d,0x69,0x74,0x74,0x65,0x72}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) or v:IsA((function() local XIUFoIK6Wh={0x54,0x72,0x61,0x69,0x6c}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) or v:IsA((function() local XIUFoIK6Wh={0x53,0x6d,0x6f,0x6b,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) or v:IsA((function() local XIUFoIK6Wh={0x46,0x69,0x72,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) then v.Enabled = false end end end) h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x46,0x50,0x53,0x20,0x42,0x6f,0x6f,0x73,0x74,0x20,0x45,0x6e,0x61,0x62,0x6c,0x65,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(474, 473)) else pcall(function() local W5SOmwRYfv = game:GetService((function() local XIUFoIK6Wh={0x4c,0x69,0x67,0x68,0x74,0x69,0x6e,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) W5SOmwRYfv.GlobalShadows = true settings().Rendering.QualityLevel = Enum.QualityLevel.Automatic end) end end, }) JZ5BncSF03:AddButton((function() local XIUFoIK6Wh={0x52,0x65,0x6d,0x6f,0x76,0x65,0x20,0x54,0x65,0x78,0x74,0x75,0x72,0x65,0x73,0x20,0x28,0x45,0x78,0x74,0x72,0x65,0x6d,0x65,0x20,0x46,0x50,0x53,0x29}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), function() for _, v in pairs(workspace:GetDescendants()) do pcall(function() if v:IsA((function() local XIUFoIK6Wh={0x44,0x65,0x63,0x61,0x6c}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) or v:IsA((function() local XIUFoIK6Wh={0x54,0x65,0x78,0x74,0x75,0x72,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) then v:Destroy() elseif v:IsA((function() local XIUFoIK6Wh={0x42,0x61,0x73,0x65,0x50,0x61,0x72,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) then v.Material = Enum.Material.SmoothPlastic v.Reflectance = (bit32.bxor(460, 460) end end) end h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x54,0x65,0x78,0x74,0x75,0x72,0x65,0x73,0x20,0x72,0x65,0x6d,0x6f,0x76,0x65,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(634, 633)) end) JZ5BncSF03:AddDivider() JZ5BncSF03:AddButton((function() local XIUFoIK6Wh={0x46,0x75,0x6c,0x6c,0x62,0x72,0x69,0x67,0x68,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), function() local W5SOmwRYfv = game:GetService((function() local XIUFoIK6Wh={0x4c,0x69,0x67,0x68,0x74,0x69,0x6e,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) W5SOmwRYfv.Brightness = (bit32.bxor(695, 693) W5SOmwRYfv.ClockTime = (bit32.bxor(734, 720) W5SOmwRYfv.FogEnd = (bit32.bxor(100197, 453) W5SOmwRYfv.GlobalShadows = false W5SOmwRYfv.OutdoorAmbient = Color3.fromRGB((bit32.bxor(271, 399), (bit32.bxor(8, 136), (bit32.bxor(482, 354)) h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x46,0x75,0x6c,0x6c,0x62,0x72,0x69,0x67,0x68,0x74,0x20,0x45,0x6e,0x61,0x62,0x6c,0x65,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(911, 908)) end) JZ5BncSF03:AddButton((function() local XIUFoIK6Wh={0x52,0x65,0x6d,0x6f,0x76,0x65,0x20,0x46,0x6f,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), function() local W5SOmwRYfv = game:GetService((function() local XIUFoIK6Wh={0x4c,0x69,0x67,0x68,0x74,0x69,0x6e,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) W5SOmwRYfv.FogEnd = (bit32.bxor(100207, 463) for _, v in pairs(W5SOmwRYfv:GetChildren()) do if v:IsA((function() local XIUFoIK6Wh={0x41,0x74,0x6d,0x6f,0x73,0x70,0x68,0x65,0x72,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) then v:Destroy() end end h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x46,0x6f,0x67,0x20,0x52,0x65,0x6d,0x6f,0x76,0x65,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(476, 479)) end) local h8FqGzUyiL = xteUvCVWKY[(function() local XIUFoIK6Wh={0x55,0x49,0x20,0x53,0x65,0x74,0x74,0x69,0x6e,0x67,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()]:AddLeftGroupbox((function() local XIUFoIK6Wh={0x4d,0x65,0x6e,0x75}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) local SExBgnLgID = xteUvCVWKY[(function() local XIUFoIK6Wh={0x55,0x49,0x20,0x53,0x65,0x74,0x74,0x69,0x6e,0x67,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()]:AddRightGroupbox((function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x75,0x72,0x61,0x74,0x69,0x6f,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) h8FqGzUyiL:AddToggle((function() local XIUFoIK6Wh={0x4b,0x65,0x79,0x62,0x69,0x6e,0x64,0x4d,0x65,0x6e,0x75,0x4f,0x70,0x65,0x6e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Default = false, Text = (function() local XIUFoIK6Wh={0x4f,0x70,0x65,0x6e,0x20,0x4b,0x65,0x79,0x62,0x69,0x6e,0x64,0x20,0x4d,0x65,0x6e,0x75}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Callback = function(lhdU4bVlPU) h1HUfiSWsL.KeybindFrame.Visible = lhdU4bVlPU end, }) h8FqGzUyiL:AddToggle((function() local XIUFoIK6Wh={0x53,0x68,0x6f,0x77,0x43,0x75,0x73,0x74,0x6f,0x6d,0x43,0x75,0x72,0x73,0x6f,0x72}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Text = (function() local XIUFoIK6Wh={0x43,0x75,0x73,0x74,0x6f,0x6d,0x20,0x43,0x75,0x72,0x73,0x6f,0x72}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Default = true, Callback = function(Value) h1HUfiSWsL.ShowCustomCursor = Value end, }) h8FqGzUyiL:AddDropdown((function() local XIUFoIK6Wh={0x4e,0x6f,0x74,0x69,0x66,0x69,0x63,0x61,0x74,0x69,0x6f,0x6e,0x53,0x69,0x64,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Values = { (function() local XIUFoIK6Wh={0x4c,0x65,0x66,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x52,0x69,0x67,0x68,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() }, Default = (bit32.bxor(710, 708), Text = (function() local XIUFoIK6Wh={0x4e,0x6f,0x74,0x69,0x66,0x69,0x63,0x61,0x74,0x69,0x6f,0x6e,0x20,0x53,0x69,0x64,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Callback = function(Value) h1HUfiSWsL:SetNotifySide(Value) end, }) h8FqGzUyiL:AddDivider() h8FqGzUyiL:AddButton((function() local XIUFoIK6Wh={0x55,0x6e,0x6c,0x6f,0x61,0x64,0x20,0x53,0x63,0x72,0x69,0x70,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), function() h1HUfiSWsL:Unload() end) h8FqGzUyiL:AddLabel((function() local XIUFoIK6Wh={0x4d,0x65,0x6e,0x75,0x20,0x4b,0x65,0x79,0x62,0x69,0x6e,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()):AddKeyPicker((function() local XIUFoIK6Wh={0x4d,0x65,0x6e,0x75,0x4b,0x65,0x79,0x62,0x69,0x6e,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Default = (function() local XIUFoIK6Wh={0x52,0x69,0x67,0x68,0x74,0x53,0x68,0x69,0x66,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), NoUI = true, Text = (function() local XIUFoIK6Wh={0x4d,0x65,0x6e,0x75,0x20,0x6b,0x65,0x79,0x62,0x69,0x6e,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() }) h1HUfiSWsL.ToggleKeybind = UJCmHonCZ5.MenuKeybind SExBgnLgID:AddLabel((function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x20,0x4d,0x61,0x6e,0x61,0x67,0x65,0x6d,0x65,0x6e,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) SExBgnLgID:AddDivider() SExBgnLgID:AddDropdown((function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x4c,0x69,0x73,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Values = {}, Default = (bit32.bxor(312, 313), Multi = false, Text = (function() local XIUFoIK6Wh={0x53,0x65,0x6c,0x65,0x63,0x74,0x20,0x43,0x6f,0x6e,0x66,0x69,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), }) SExBgnLgID:AddInput((function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x4e,0x61,0x6d,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), { Default = "", Numeric = false, Finished = false, Text = (function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x20,0x4e,0x61,0x6d,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Tooltip = (function() local XIUFoIK6Wh={0x45,0x6e,0x74,0x65,0x72,0x20,0x6e,0x61,0x6d,0x65,0x20,0x66,0x6f,0x72,0x20,0x79,0x6f,0x75,0x72,0x20,0x63,0x6f,0x6e,0x66,0x69,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), Placeholder = (function() local XIUFoIK6Wh={0x4d,0x79,0x43,0x6f,0x6e,0x66,0x69,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), }) SExBgnLgID:AddButton((function() local XIUFoIK6Wh={0x53,0x61,0x76,0x65,0x20,0x43,0x6f,0x6e,0x66,0x69,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), function() local Dl8pHdrdyg = UJCmHonCZ5.ConfigName.Value if Dl8pHdrdyg == "" then h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x50,0x6c,0x65,0x61,0x73,0x65,0x20,0x65,0x6e,0x74,0x65,0x72,0x20,0x61,0x20,0x63,0x6f,0x6e,0x66,0x69,0x67,0x20,0x6e,0x61,0x6d,0x65,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(868, 871)) return end llxT6gOEzz:Save(Dl8pHdrdyg) h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x20,0x27}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() .. Dl8pHdrdyg .. (function() local XIUFoIK6Wh={0x27,0x20,0x73,0x61,0x76,0x65,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(95, 92)) llxT6gOEzz:Refresh() end) SExBgnLgID:AddButton((function() local XIUFoIK6Wh={0x4c,0x6f,0x61,0x64,0x20,0x43,0x6f,0x6e,0x66,0x69,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), function() local Dl8pHdrdyg = UJCmHonCZ5.ConfigName.Value if Dl8pHdrdyg == "" then h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x50,0x6c,0x65,0x61,0x73,0x65,0x20,0x65,0x6e,0x74,0x65,0x72,0x20,0x61,0x20,0x63,0x6f,0x6e,0x66,0x69,0x67,0x20,0x6e,0x61,0x6d,0x65,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(307, 304)) return end if llxT6gOEzz:Load(Dl8pHdrdyg) then h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x20,0x27}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() .. Dl8pHdrdyg .. (function() local XIUFoIK6Wh={0x27,0x20,0x6c,0x6f,0x61,0x64,0x65,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(731, 728)) else h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x20,0x6e,0x6f,0x74,0x20,0x66,0x6f,0x75,0x6e,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(534, 533)) end end) SExBgnLgID:AddButton((function() local XIUFoIK6Wh={0x44,0x65,0x6c,0x65,0x74,0x65,0x20,0x43,0x6f,0x6e,0x66,0x69,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), function() local Dl8pHdrdyg = UJCmHonCZ5.ConfigName.Value if Dl8pHdrdyg == "" then h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x50,0x6c,0x65,0x61,0x73,0x65,0x20,0x65,0x6e,0x74,0x65,0x72,0x20,0x61,0x20,0x63,0x6f,0x6e,0x66,0x69,0x67,0x20,0x6e,0x61,0x6d,0x65,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(549, 550)) return end if llxT6gOEzz:Delete(Dl8pHdrdyg) then h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x20,0x27}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() .. Dl8pHdrdyg .. (function() local XIUFoIK6Wh={0x27,0x20,0x64,0x65,0x6c,0x65,0x74,0x65,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(468, 471)) llxT6gOEzz:Refresh() else h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x20,0x6e,0x6f,0x74,0x20,0x66,0x6f,0x75,0x6e,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(32, 35)) end end) SExBgnLgID:AddDivider() SExBgnLgID:AddButton((function() local XIUFoIK6Wh={0x52,0x65,0x66,0x72,0x65,0x73,0x68,0x20,0x43,0x6f,0x6e,0x66,0x69,0x67,0x20,0x4c,0x69,0x73,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), function() llxT6gOEzz:Refresh() h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x20,0x6c,0x69,0x73,0x74,0x20,0x72,0x65,0x66,0x72,0x65,0x73,0x68,0x65,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(767, 765)) end) SExBgnLgID:AddButton((function() local XIUFoIK6Wh={0x53,0x65,0x74,0x20,0x61,0x73,0x20,0x41,0x75,0x74,0x6f,0x6c,0x6f,0x61,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), function() local Dl8pHdrdyg = UJCmHonCZ5.ConfigName.Value if Dl8pHdrdyg == "" then h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x50,0x6c,0x65,0x61,0x73,0x65,0x20,0x65,0x6e,0x74,0x65,0x72,0x20,0x61,0x20,0x63,0x6f,0x6e,0x66,0x69,0x67,0x20,0x6e,0x61,0x6d,0x65,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(424, 427)) return end llxT6gOEzz:SetAutoload(Dl8pHdrdyg) h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x20,0x27}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() .. Dl8pHdrdyg .. (function() local XIUFoIK6Wh={0x27,0x20,0x73,0x65,0x74,0x20,0x61,0x73,0x20,0x61,0x75,0x74,0x6f,0x6c,0x6f,0x61,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(150, 149)) end) local DqqTvxvTJ9 = xteUvCVWKY[(function() local XIUFoIK6Wh={0x55,0x49,0x20,0x53,0x65,0x74,0x74,0x69,0x6e,0x67,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()]:AddLeftGroupbox((function() local XIUFoIK6Wh={0x54,0x68,0x65,0x6d,0x65,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) z0gLEeCBka:SetLibrary(h1HUfiSWsL) llxT6gOEzz:SetLibrary(h1HUfiSWsL) llxT6gOEzz:IgnoreThemeSettings() llxT6gOEzz:SetIgnoreIndexes({ (function() local XIUFoIK6Wh={0x4d,0x65,0x6e,0x75,0x4b,0x65,0x79,0x62,0x69,0x6e,0x64}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x4e,0x61,0x6d,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x43,0x6f,0x6e,0x66,0x69,0x67,0x4c,0x69,0x73,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (function() local XIUFoIK6Wh={0x54,0x68,0x65,0x6d,0x65,0x4c,0x69,0x73,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() }) z0gLEeCBka:SetFolder((function() local XIUFoIK6Wh={0x52,0x69,0x76,0x61,0x6c,0x73,0x43,0x68,0x65,0x61,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) llxT6gOEzz:SetFolder((function() local XIUFoIK6Wh={0x52,0x69,0x76,0x61,0x6c,0x73,0x43,0x68,0x65,0x61,0x74,0x2f,0x63,0x6f,0x6e,0x66,0x69,0x67,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) z0gLEeCBka:ApplyToTab(xteUvCVWKY[(function() local XIUFoIK6Wh={0x55,0x49,0x20,0x53,0x65,0x74,0x74,0x69,0x6e,0x67,0x73}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()]) task.spawn(function() while true do task.wait((bit32.bxor(357, 73)) if llxT6gOEzz.Autoload then llxT6gOEzz:Save(llxT6gOEzz.Autoload) end end end) llxT6gOEzz:LoadAutoloadConfig() h1HUfiSWsL:OnUnload(function() print((function() local XIUFoIK6Wh={0x55,0x6e,0x6c,0x6f,0x61,0x64,0x69,0x6e,0x67,0x20,0x52,0x69,0x76,0x61,0x6c,0x73,0x20,0x43,0x68,0x65,0x61,0x74,0x2e,0x2e,0x2e}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) for name, conn in pairs(ugkRPp419n) do pcall(function() if name == (function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() then RunService:UnbindFromRenderStep((function() local XIUFoIK6Wh={0x41,0x69,0x6d,0x62,0x6f,0x74}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) elseif type(conn) == (function() local XIUFoIK6Wh={0x74,0x61,0x62,0x6c,0x65}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)() and conn.Disconnect then conn:Disconnect() end end) end ugkRPp419n = {} for fOkU7e6y5M in pairs(n8FxaQ4MbP) do VOujT5lhrV(fOkU7e6y5M) end pcall(function() 4SSpQTOlf9:Remove() end) if i2F6DFtLDi then i2F6DFtLDi:Destroy() end Bpph6zAFx9.Gravity = (bit32.bxor(391, 323).(bit32.bxor(807, 805) if 9FsWX8B4oR then 9E8rJzVFu0.CameraMode = 9FsWX8B4oR else 9E8rJzVFu0.CameraMode = Enum.CameraMode.Classic end if AWu9lMsHis then 9E8rJzVFu0.CameraMaxZoomDistance = AWu9lMsHis else 9E8rJzVFu0.CameraMaxZoomDistance = (bit32.bxor(428, 300) end if 1OMEqgG9bW then 9E8rJzVFu0.CameraMinZoomDistance = 1OMEqgG9bW else 9E8rJzVFu0.CameraMinZoomDistance = (bit32.bxor(841, 841).(bit32.bxor(190, 187) end pcall(function() local CKaGMPuJ3A = oXijK7i39d() if CKaGMPuJ3A then CKaGMPuJ3A.WalkSpeed = (bit32.bxor(727, 711) CKaGMPuJ3A.JumpPower = (bit32.bxor(545, 531) end end) if ykRC0dHZm4 then ykRC0dHZm4:Disconnect() end pcall(function() local W5SOmwRYfv = game:GetService((function() local XIUFoIK6Wh={0x4c,0x69,0x67,0x68,0x74,0x69,0x6e,0x67}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)()) W5SOmwRYfv.GlobalShadows = true W5SOmwRYfv.Brightness = (bit32.bxor(752, 753) settings().Rendering.QualityLevel = Enum.QualityLevel.Automatic end) h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x53,0x63,0x72,0x69,0x70,0x74,0x20,0x75,0x6e,0x6c,0x6f,0x61,0x64,0x65,0x64,0x20,0x73,0x75,0x63,0x63,0x65,0x73,0x73,0x66,0x75,0x6c,0x6c,0x79,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(313, 314)) end) h1HUfiSWsL:Notify((function() local XIUFoIK6Wh={0x52,0x69,0x76,0x61,0x6c,0x73,0x20,0x43,0x68,0x65,0x61,0x74,0x20,0x76,0x32,0x2e,0x30,0x20,0x4c,0x6f,0x61,0x64,0x65,0x64,0x21}; return string.Ukcoj08yB2(table.unpack(XIUFoIK6Wh)) end)(), (bit32.bxor(24, 29))
+--[[
+	Rivals Cheat Script - ULTIMATE VERSION
+	All bugs fixed, optimized ESP system, improved Aimbot
+]]
+
+local repo = "https://raw.githubusercontent.com/deividcomsono/Obsidian/main/"
+local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
+local ThemeManager = loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua"))()
+local SaveManager = loadstring(game:HttpGet(repo .. "addons/SaveManager.lua"))()
+
+local Options = Library.Options
+local Toggles = Library.Toggles
+
+Library.ForceCheckbox = false
+Library.ShowToggleFrameInKeybinds = true
+
+local RunService = game:GetService("RunService")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local Workspace = game:GetService("Workspace")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local UserInputService = game:GetService("UserInputService")
+local Camera = Workspace.CurrentCamera
+
+-- Connection storage for proper cleanup
+local connections = {}
+
+local Window = Library:CreateWindow({
+	Title = "Rivals - thegxx",
+	Footer = "version: 2.0 - finished",
+	Icon = 123123,
+	NotifySide = "Right",
+	ShowCustomCursor = true,
+})
+
+local Tabs = {
+	Aimbot = Window:AddTab("Aimbot & Precision", "user"),
+	Visuals = Window:AddTab("Visuals & ESP", "eye"),
+	Movement = Window:AddTab("Movement & Mobility", "running"),
+	Protection = Window:AddTab("Protection & Survival", "shield"),
+	Extras = Window:AddTab("UI & Extras", "gear"),
+	["UI Settings"] = Window:AddTab("UI Settings", "settings"),
+}
+
+-- Utility functions
+local function getCharacter()
+	return LocalPlayer.Character
+end
+
+local function getHumanoid()
+	local character = getCharacter()
+	return character and character:FindFirstChild("Humanoid")
+end
+
+local function getRoot()
+	local character = getCharacter()
+	return character and character:FindFirstChild("HumanoidRootPart")
+end
+
+-- Aimbot settings
+local aimDeadCheck = true
+local aimWallCheck = true
+local aimPriority = "Distance"
+local aimFOV = 500
+local aimMaxDistance = 0 -- 0 = no limit
+
+local function isValidTarget(player)
+	if player == LocalPlayer or not player.Character or not player.Character:FindFirstChild("Humanoid") or not player.Character:FindFirstChild("Head") then 
+		return false 
+	end
+	
+	if aimDeadCheck and player.Character.Humanoid.Health <= 0 then 
+		return false 
+	end
+	
+	-- Distance check
+	if aimMaxDistance > 0 then
+		local myRoot = getRoot()
+		if myRoot then
+			local distance = (myRoot.Position - player.Character.Head.Position).Magnitude
+			if distance > aimMaxDistance then
+				return false
+			end
+		end
+	end
+	
+	if aimWallCheck then
+		local ray = Ray.new(Camera.CFrame.Position, (player.Character.Head.Position - Camera.CFrame.Position).Unit * 500)
+		local part = Workspace:FindPartOnRayWithIgnoreList(ray, {getCharacter()})
+		if part and part:IsDescendantOf(player.Character) then 
+			return true 
+		else 
+			return false 
+		end
+	end
+	return true
+end
+
+local function getClosestPlayer(fov)
+	local closest, closestValue = nil, math.huge
+	local center = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
+	
+	for _, player in ipairs(Players:GetPlayers()) do
+		if not isValidTarget(player) then continue end
+		local head = player.Character.Head
+		local pos, onScreen = Camera:WorldToViewportPoint(head.Position)
+		if not onScreen then continue end
+		local dist = (center - Vector2.new(pos.X, pos.Y)).Magnitude
+		if dist > (fov or math.huge) then continue end
+		local value = aimPriority == "Distance" and dist or player.Character.Humanoid.Health
+		if value < closestValue then
+			closestValue = value
+			closest = player
+		end
+	end
+	return closest
+end
+
+-- Aimbot Tab - UNIFIED
+local AimbotMainGroupBox = Tabs.Aimbot:AddLeftGroupbox("Aimbot Main Settings")
+local AimbotFOVGroupBox = Tabs.Aimbot:AddRightGroupbox("FOV Settings")
+
+-- Aimbot Settings
+local aimbotEnabled = false
+local aimbotMode = "Rage"
+local aimbotLock = "Head"
+local aimbotAutoFire = false
+local aimbotPrediction = false
+local aimbotSensitivity = 1
+
+AimbotMainGroupBox:AddToggle("AimbotToggle", {
+	Text = "Enable Aimbot",
+	Default = false,
+	Callback = function(Value)
+		aimbotEnabled = Value
+	end,
+})
+
+AimbotMainGroupBox:AddLabel("Aimbot Keybind"):AddKeyPicker("AimbotKeybind", {
+	Default = "MB2",
+	Mode = "Hold",
+	Text = "Aimbot Key",
+	NoUI = false,
+	SyncToggleState = false,
+	Callback = function(Value)
+		aimbotEnabled = Value
+	end,
+})
+
+AimbotMainGroupBox:AddDropdown("AimbotMode", {
+	Values = { "Rage", "Legit" },
+	Default = 1,
+	Multi = false,
+	Text = "Aimbot Mode",
+	Callback = function(Value)
+		aimbotMode = Value
+	end,
+})
+
+AimbotMainGroupBox:AddDropdown("AimbotLock", {
+	Values = { "Head", "Torso" },
+	Default = 1,
+	Multi = false,
+	Text = "Lock Target",
+	Callback = function(Value)
+		aimbotLock = Value
+	end,
+})
+
+AimbotMainGroupBox:AddToggle("AimbotAutoFire", {
+	Text = "Auto-Fire",
+	Default = false,
+	Callback = function(Value)
+		aimbotAutoFire = Value
+	end,
+})
+
+AimbotMainGroupBox:AddToggle("AimbotPrediction", {
+	Text = "Movement Prediction",
+	Default = false,
+	Callback = function(Value)
+		aimbotPrediction = Value
+	end,
+})
+
+AimbotMainGroupBox:AddSlider("AimbotSensitivity", {
+	Text = "Sensitivity (Legit)",
+	Default = 1,
+	Min = 0.1,
+	Max = 5,
+	Rounding = 1,
+	Callback = function(Value)
+		aimbotSensitivity = Value
+	end,
+})
+
+-- Priorities and Checks
+AimbotMainGroupBox:AddDropdown("AimPriority", {
+	Values = { "Distance", "Health" },
+	Default = 1,
+	Multi = false,
+	Text = "Priority",
+	Callback = function(Value)
+		aimPriority = Value
+	end,
+})
+
+AimbotMainGroupBox:AddSlider("AimMaxDistance", {
+	Text = "Max Distance",
+	Default = 0,
+	Min = 0,
+	Max = 1000,
+	Rounding = 0,
+	Suffix = " studs",
+	Tooltip = "0 = no distance limit",
+	Callback = function(Value)
+		aimMaxDistance = Value
+	end,
+})
+
+AimbotMainGroupBox:AddToggle("AimDeadCheck", {
+	Text = "Dead Check",
+	Default = true,
+	Callback = function(Value)
+		aimDeadCheck = Value
+	end,
+})
+
+AimbotMainGroupBox:AddToggle("AimWallCheck", {
+	Text = "Wall Check",
+	Default = true,
+	Callback = function(Value)
+		aimWallCheck = Value
+	end,
+})
+
+-- FOV Settings (Unified for both Aimbot and Silent Aim)
+AimbotFOVGroupBox:AddSlider("AimFOV", {
+	Text = "Aimbot FOV",
+	Default = 500,
+	Min = 100,
+	Max = 1000,
+	Rounding = 0,
+	Callback = function(Value)
+		aimFOV = Value
+	end,
+})
+
+-- Silent Aim
+local silentAimEnabled = false
+local silentAimHitchance = 50
+
+AimbotFOVGroupBox:AddToggle("SilentAimToggle", {
+	Text = "Silent Aim",
+	Tooltip = "Invisible aim, adjusts trajectories",
+	Default = false,
+	Callback = function(Value)
+		silentAimEnabled = Value
+	end,
+})
+
+AimbotFOVGroupBox:AddSlider("SilentAimHitchance", {
+	Text = "Silent Aim Hitchance",
+	Default = 50,
+	Min = 0,
+	Max = 100,
+	Rounding = 0,
+	Suffix = "%",
+	Callback = function(Value)
+		silentAimHitchance = Value
+	end,
+})
+
+-- FOV Circle
+local fovCircleEnabled = false
+local fovCircleSize = 100
+local fovCircleRainbow = false
+local fovCircle = Drawing.new("Circle")
+fovCircle.Visible = false
+fovCircle.Thickness = 2
+fovCircle.Color = Color3.new(1,1,1)
+fovCircle.Transparency = 1
+fovCircle.NumSides = 64
+
+AimbotFOVGroupBox:AddToggle("FOVCircleToggle", {
+	Text = "FOV Circle",
+	Tooltip = "Visible aim circle",
+	Default = false,
+	Callback = function(Value)
+		fovCircleEnabled = Value
+		fovCircle.Visible = Value
+	end,
+})
+
+AimbotFOVGroupBox:AddSlider("FOVCircleSize", {
+	Text = "FOV Circle Size",
+	Default = 100,
+	Min = 50,
+	Max = 500,
+	Rounding = 0,
+	Suffix = " px",
+	Callback = function(Value)
+		fovCircleSize = Value
+	end,
+})
+
+AimbotFOVGroupBox:AddToggle("FOVCircleRainbow", {
+	Text = "Rainbow FOV",
+	Default = false,
+	Callback = function(Value)
+		fovCircleRainbow = Value
+	end,
+})
+
+-- Improved Aimbot loop
+connections["Aimbot"] = RunService:BindToRenderStep("Aimbot", Enum.RenderPriority.Camera.Value, function(dt)
+	if not aimbotEnabled then return end
+	local closest = getClosestPlayer(aimFOV)
+	if closest and closest.Character then
+		local targetPart = closest.Character:FindFirstChild(aimbotLock == "Head" and "Head" or "UpperTorso")
+		if not targetPart then return end
+		
+		local prediction = aimbotPrediction and targetPart.AssemblyLinearVelocity * 0.1 or Vector3.zero
+		local targetPos = targetPart.Position + prediction
+		
+		if aimbotMode == "Rage" then
+			Camera.CFrame = CFrame.lookAt(Camera.CFrame.Position, targetPos)
+		elseif aimbotMode == "Legit" then
+			local currentLook = Camera.CFrame.LookVector
+			local targetLook = (targetPos - Camera.CFrame.Position).Unit
+			local smoothFactor = math.clamp(aimbotSensitivity * dt * 10, 0.01, 0.3)
+			local newLook = currentLook:Lerp(targetLook, smoothFactor)
+			Camera.CFrame = CFrame.lookAt(Camera.CFrame.Position, Camera.CFrame.Position + newLook)
+		end
+		
+		if aimbotAutoFire then
+			local tool = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Tool")
+			if tool then
+				tool:Activate()
+			end
+		end
+	end
+end)
+
+-- Silent Aim hook
+pcall(function()
+	local utility = require(ReplicatedStorage.Modules.Utility)
+	local oldRaycast = utility.Raycast
+
+	utility.Raycast = function(...)
+		local args = {...}
+		if silentAimEnabled and #args >= 3 and math.random(100) <= silentAimHitchance then
+			local closest = getClosestPlayer(aimFOV)
+			if closest and closest.Character and closest.Character:FindFirstChild("Head") then
+				args[3] = closest.Character.Head.Position
+			end
+		end
+		return oldRaycast(table.unpack(args))
+	end
+end)
+
+-- Improved TriggerBot
+local triggerBotEnabled = false
+local triggerBotDelay = 0
+local triggerBotLastShot = 0
+
+AimbotMainGroupBox:AddToggle("TriggerBotToggle", {
+	Text = "TriggerBot",
+	Tooltip = "Auto-shoot when aiming at enemy",
+	Default = false,
+	Callback = function(Value)
+		triggerBotEnabled = Value
+	end,
+})
+
+AimbotMainGroupBox:AddSlider("TriggerBotDelay", {
+	Text = "TriggerBot Delay",
+	Default = 0,
+	Min = 0,
+	Max = 500,
+	Rounding = 0,
+	Suffix = "ms",
+	Callback = function(Value)
+		triggerBotDelay = Value / 1000
+	end,
+})
+
+connections["TriggerBot"] = RunService.Heartbeat:Connect(function()
+	if not triggerBotEnabled then return end
+	if tick() - triggerBotLastShot < triggerBotDelay then return end
+	
+	local mouse = LocalPlayer:GetMouse()
+	local target = mouse.Target
+	if target and target.Parent then
+		local humanoid = target.Parent:FindFirstChild("Humanoid")
+		if humanoid and humanoid.Health > 0 then
+			local player = Players:GetPlayerFromCharacter(target.Parent)
+			if player and player ~= LocalPlayer then
+				triggerBotLastShot = tick()
+				local tool = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Tool")
+				if tool then
+					tool:Activate()
+				end
+			end
+		end
+	end
+end)
+
+-- FOV Circle update
+connections["FOVCircle"] = RunService.RenderStepped:Connect(function()
+	if fovCircleEnabled then
+		fovCircle.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
+		fovCircle.Radius = fovCircleSize
+		fovCircle.Visible = true
+		if fovCircleRainbow then
+			fovCircle.Color = Color3.fromHSV(tick() % 5 / 5, 1, 1)
+		end
+	else
+		fovCircle.Visible = false
+	end
+end)
+
+-- Visuals Tab
+local VisualsLeftGroupBox = Tabs.Visuals:AddLeftGroupbox("Player ESP Options")
+local VisualsSkeletonGroupBox = Tabs.Visuals:AddRightGroupbox("Skeleton ESP Options")
+local VisualsOtherGroupBox = Tabs.Visuals:AddLeftGroupbox("Other Visuals")
+
+-- ESP Variables
+local playerESPEnabled = false
+local boxESPEnabled = false
+local chamsESPEnabled = false
+local playerESPName = true
+local playerESPDistance = true
+local playerESPHealth = true
+local playerESPWeapon = true
+local rainbowModeEnabled = false
+local deadESPEnabled = true
+
+-- Store ESP states for toggle functionality
+local espStates = {
+	Box = false,
+	Chams = false,
+	Name = true,
+	Distance = true,
+	Health = true,
+	Weapon = true,
+	Skeleton = false,
+	Tracers = false
+}
+
+-- ESP Storage
+local espBoxes = {}
+local espChams = {}
+local espTexts = {}
+local skeletonLines = {}
+
+-- Intelligent ESP Management System
+local function cleanupPlayerESP(player)
+	if espBoxes[player] then 
+		pcall(function() espBoxes[player]:Remove() end) 
+		espBoxes[player] = nil 
+	end
+	if espChams[player] then 
+		pcall(function() espChams[player]:Destroy() end) 
+		espChams[player] = nil 
+	end
+	if espTexts[player] then 
+		pcall(function() espTexts[player]:Remove() end) 
+		espTexts[player] = nil 
+	end
+	if skeletonLines[player] then
+		if skeletonLines[player].lines then
+			for _, line in pairs(skeletonLines[player].lines) do
+				pcall(function() line:Remove() end)
+			end
+		end
+		if skeletonLines[player].tracer then
+			pcall(function() skeletonLines[player].tracer:Remove() end)
+		end
+		skeletonLines[player] = nil
+	end
+end
+
+-- ESP creation function
+local function createPlayerESP(player)
+	if player == LocalPlayer then return end
+	if not player.Character then return end
+	
+	-- Clean up existing ESP first
+	cleanupPlayerESP(player)
+	
+	-- Box ESP
+	local box = Drawing.new("Square")
+	box.Visible = false
+	box.Color = Color3.new(1, 1, 1)
+	box.Thickness = 2
+	box.Filled = false
+	box.Transparency = 1
+	espBoxes[player] = box
+	
+	-- Chams ESP
+	local cham = Instance.new("Highlight")
+	cham.Name = "ESP_Cham_" .. player.Name
+	cham.Parent = game.CoreGui
+	cham.Adornee = player.Character
+	cham.FillTransparency = 0.5
+	cham.OutlineTransparency = 0
+	cham.FillColor = Color3.new(1, 1, 1)
+	cham.OutlineColor = Color3.new(1, 1, 1)
+	cham.Enabled = false
+	espChams[player] = cham
+	
+	-- Text ESP
+	local text = Drawing.new("Text")
+	text.Visible = false
+	text.Color = Color3.new(1, 1, 1)
+	text.Size = 16
+	text.Center = true
+	text.Outline = true
+	text.Transparency = 1
+	text.Font = 2
+	espTexts[player] = text
+end
+
+-- ESP Toggle System
+local function toggleESPState()
+	playerESPEnabled = not playerESPEnabled
+	
+	if playerESPEnabled then
+		-- Restore previous states
+		boxESPEnabled = espStates.Box
+		chamsESPEnabled = espStates.Chams
+		playerESPName = espStates.Name
+		playerESPDistance = espStates.Distance
+		playerESPHealth = espStates.Health
+		playerESPWeapon = espStates.Weapon
+		skeletonESPEnabled = espStates.Skeleton
+		skeletonESPTracers = espStates.Tracers
+		
+		-- Create ESP for all players
+		for _, player in ipairs(Players:GetPlayers()) do
+			if player ~= LocalPlayer and player.Character then
+				createPlayerESP(player)
+			end
+		end
+		Library:Notify("ESP Enabled!", 2)
+	else
+		-- Store current states
+		espStates.Box = boxESPEnabled
+		espStates.Chams = chamsESPEnabled
+		espStates.Name = playerESPName
+		espStates.Distance = playerESPDistance
+		espStates.Health = playerESPHealth
+		espStates.Weapon = playerESPWeapon
+		espStates.Skeleton = skeletonESPEnabled
+		espStates.Tracers = skeletonESPTracers
+		
+		-- Disable all ESP
+		boxESPEnabled = false
+		chamsESPEnabled = false
+		skeletonESPEnabled = false
+		skeletonESPTracers = false
+		
+		-- Clean up all ESP
+		for player in pairs(espBoxes) do
+			cleanupPlayerESP(player)
+		end
+		Library:Notify("ESP Disabled!", 2)
+	end
+	
+	-- Update toggles
+	Toggles.BoxESPToggle:SetValue(boxESPEnabled)
+	Toggles.ChamsESPToggle:SetValue(chamsESPEnabled)
+	Toggles.SkeletonESPToggle:SetValue(skeletonESPEnabled)
+	Toggles.SkeletonESPTracers:SetValue(skeletonESPTracers)
+end
+
+-- ESP Keybind
+VisualsLeftGroupBox:AddLabel("ESP Master Keybind"):AddKeyPicker("ESPKeybind", {
+	Default = "P",
+	Mode = "Toggle",
+	Text = "ESP Master Key",
+	NoUI = false,
+	Callback = function(Value)
+		toggleESPState()
+	end,
+})
+
+VisualsLeftGroupBox:AddToggle("PlayerESPToggle", {
+	Text = "Enable Player ESP",
+	Default = false,
+	Callback = function(Value)
+		playerESPEnabled = Value
+		if not Value then
+			toggleESPState()
+		end
+	end,
+})
+
+VisualsLeftGroupBox:AddToggle("BoxESPToggle", {
+	Text = "Box ESP",
+	Default = false,
+	Callback = function(Value)
+		boxESPEnabled = Value
+		espStates.Box = Value
+	end,
+})
+
+VisualsLeftGroupBox:AddToggle("ChamsESPToggle", {
+	Text = "Chams ESP",
+	Default = false,
+	Callback = function(Value)
+		chamsESPEnabled = Value
+		espStates.Chams = Value
+	end,
+})
+
+VisualsLeftGroupBox:AddToggle("PlayerESPName", {
+	Text = "Name",
+	Default = true,
+	Callback = function(Value)
+		playerESPName = Value
+		espStates.Name = Value
+	end,
+})
+
+VisualsLeftGroupBox:AddToggle("PlayerESPDistance", {
+	Text = "Distance",
+	Default = true,
+	Callback = function(Value)
+		playerESPDistance = Value
+		espStates.Distance = Value
+	end,
+})
+
+VisualsLeftGroupBox:AddToggle("PlayerESPHealth", {
+	Text = "Health",
+	Default = true,
+	Callback = function(Value)
+		playerESPHealth = Value
+		espStates.Health = Value
+	end,
+})
+
+VisualsLeftGroupBox:AddToggle("PlayerESPWeapon", {
+	Text = "Equipped Weapon",
+	Default = true,
+	Callback = function(Value)
+		playerESPWeapon = Value
+		espStates.Weapon = Value
+	end,
+})
+
+-- Player management system
+local function setupPlayerESP(player)
+	if player == LocalPlayer then return end
+	
+	player.CharacterAdded:Connect(function(char)
+		task.wait(0.1)
+		if playerESPEnabled then 
+			createPlayerESP(player)
+		end
+	end)
+	
+	player.CharacterRemoving:Connect(function()
+		cleanupPlayerESP(player)
+	end)
+	
+	if player.Character then
+		task.wait(0.1)
+		createPlayerESP(player)
+	end
+end
+
+-- Setup for existing players
+for _, player in ipairs(Players:GetPlayers()) do
+	setupPlayerESP(player)
+end
+
+-- Setup for new players
+Players.PlayerAdded:Connect(function(player)
+	setupPlayerESP(player)
+end)
+
+Players.PlayerRemoving:Connect(function(player)
+	cleanupPlayerESP(player)
+end)
+
+-- ESP update with intelligent cleanup
+connections["PlayerESP"] = RunService.Heartbeat:Connect(function()
+	if not playerESPEnabled then return end
+	
+	local hue = tick() % 5 / 5
+	local rainbowColor = Color3.fromHSV(hue, 1, 1)
+	
+	for _, player in ipairs(Players:GetPlayers()) do
+		if player == LocalPlayer then continue end
+		
+		-- Auto cleanup for dead/disconnected players
+		if not player.Character or not player.Character.Parent then
+			cleanupPlayerESP(player)
+			continue
+		end
+		
+		local humanoid = player.Character:FindFirstChild("Humanoid")
+		local root = player.Character:FindFirstChild("HumanoidRootPart")
+		
+		if not humanoid or not root then 
+			cleanupPlayerESP(player)
+			continue 
+		end
+		
+		-- Auto cleanup for dead players if deadESP is enabled
+		if deadESPEnabled and humanoid.Health <= 0 then
+			cleanupPlayerESP(player)
+			continue
+		end
+		
+		-- Create ESP if it doesn't exist
+		if not espBoxes[player] then
+			createPlayerESP(player)
+		end
+		
+		local rootPos, onScreen = Camera:WorldToViewportPoint(root.Position)
+		if onScreen then
+			-- Text ESP
+			if espTexts[player] then
+				local textStr = ""
+				if playerESPName then textStr = textStr .. player.Name .. "\n" end
+				if playerESPDistance then 
+					local myRoot = getRoot()
+					if myRoot then
+						textStr = textStr .. math.floor((myRoot.Position - root.Position).Magnitude) .. " studs\n" 
+					end
+				end
+				if playerESPHealth then textStr = textStr .. math.floor(humanoid.Health) .. "/" .. humanoid.MaxHealth .. "\n" end
+				if playerESPWeapon then
+					local tool = player.Character:FindFirstChildOfClass("Tool") or player.Backpack:FindFirstChildOfClass("Tool")
+					if tool then textStr = textStr .. tool.Name end
+				end
+				
+				espTexts[player].Text = textStr
+				espTexts[player].Position = Vector2.new(rootPos.X, rootPos.Y - 50)
+				espTexts[player].Visible = true
+				if rainbowModeEnabled then 
+					espTexts[player].Color = rainbowColor 
+				end
+			end
+			
+			-- Box ESP
+			if boxESPEnabled and espBoxes[player] then
+				local minX, minY = math.huge, math.huge
+				local maxX, maxY = -math.huge, -math.huge
+				
+				for _, part in ipairs(player.Character:GetDescendants()) do
+					if part:IsA("BasePart") then
+						local corners = {
+							part.CFrame * CFrame.new(part.Size.X/2, part.Size.Y/2, part.Size.Z/2).Position,
+							part.CFrame * CFrame.new(part.Size.X/2, part.Size.Y/2, -part.Size.Z/2).Position,
+							part.CFrame * CFrame.new(part.Size.X/2, -part.Size.Y/2, part.Size.Z/2).Position,
+							part.CFrame * CFrame.new(part.Size.X/2, -part.Size.Y/2, -part.Size.Z/2).Position,
+							part.CFrame * CFrame.new(-part.Size.X/2, part.Size.Y/2, part.Size.Z/2).Position,
+							part.CFrame * CFrame.new(-part.Size.X/2, part.Size.Y/2, -part.Size.Z/2).Position,
+							part.CFrame * CFrame.new(-part.Size.X/2, -part.Size.Y/2, part.Size.Z/2).Position,
+							part.CFrame * CFrame.new(-part.Size.X/2, -part.Size.Y/2, -part.Size.Z/2).Position
+						}
+						for _, corner in ipairs(corners) do
+							local pos = Camera:WorldToViewportPoint(corner)
+							minX = math.min(minX, pos.X)
+							maxX = math.max(maxX, pos.X)
+							minY = math.min(minY, pos.Y)
+							maxY = math.max(maxY, pos.Y)
+						end
+					end
+				end
+				
+				espBoxes[player].Size = Vector2.new(maxX - minX, maxY - minY)
+				espBoxes[player].Position = Vector2.new(minX, minY)
+				espBoxes[player].Visible = true
+				if rainbowModeEnabled then 
+					espBoxes[player].Color = rainbowColor 
+				end
+			end
+		else
+			if espTexts[player] then espTexts[player].Visible = false end
+			if espBoxes[player] then espBoxes[player].Visible = false end
+		end
+		
+		-- Chams ESP
+		if chamsESPEnabled and espChams[player] then
+			if espChams[player].Adornee ~= player.Character then
+				espChams[player].Adornee = player.Character
+			end
+			espChams[player].Enabled = true
+			if rainbowModeEnabled then 
+				espChams[player].FillColor = rainbowColor 
+				espChams[player].OutlineColor = rainbowColor
+			end
+		elseif espChams[player] then
+			espChams[player].Enabled = false
+		end
+	end
+end)
+
+-- Skeleton ESP
+local skeletonESPEnabled = false
+local skeletonESPTracers = false
+
+VisualsSkeletonGroupBox:AddToggle("SkeletonESPToggle", {
+	Text = "Skeleton ESP",
+	Tooltip = "Full player skeleton",
+	Default = false,
+	Callback = function(Value)
+		skeletonESPEnabled = Value
+		espStates.Skeleton = Value
+	end,
+})
+
+VisualsSkeletonGroupBox:AddToggle("SkeletonESPTracers", {
+	Text = "Tracers",
+	Default = false,
+	Callback = function(Value)
+		skeletonESPTracers = Value
+		espStates.Tracers = Value
+	end,
+})
+
+local function getPos(part)
+	return part and part.Position or nil
+end
+
+connections["SkeletonESP"] = RunService.Heartbeat:Connect(function()
+	if not skeletonESPEnabled then return end
+	
+	local hue = tick() % 5 / 5
+	local rainbowColor = Color3.fromHSV(hue, 1, 1)
+	
+	for _, player in ipairs(Players:GetPlayers()) do
+		if player == LocalPlayer then continue end
+		
+		-- Auto cleanup for invalid players
+		if not player.Character or not player.Character.Parent then
+			if skeletonLines[player] then
+				cleanupPlayerESP(player)
+			end
+			continue
+		end
+		
+		local humanoid = player.Character:FindFirstChild("Humanoid")
+		if not humanoid or (deadESPEnabled and humanoid.Health <= 0) then 
+			if skeletonLines[player] then
+				cleanupPlayerESP(player)
+			end
+			continue 
+		end
+		
+		-- Initialize skeleton lines
+		if not skeletonLines[player] then
+			skeletonLines[player] = {
+				lines = {},
+				tracer = nil
+			}
+			for i = 1, 14 do
+				local line = Drawing.new("Line")
+				line.Visible = false
+				line.Color = Color3.new(1,1,1)
+				line.Thickness = 2
+				line.Transparency = 1
+				skeletonLines[player].lines[i] = line
+			end
+		end
+		
+		local char = player.Character
+		local bonePairs = {
+			{char:FindFirstChild("Head"), char:FindFirstChild("UpperTorso")},
+			{char:FindFirstChild("UpperTorso"), char:FindFirstChild("LowerTorso")},
+			{char:FindFirstChild("UpperTorso"), char:FindFirstChild("LeftUpperArm")},
+			{char:FindFirstChild("LeftUpperArm"), char:FindFirstChild("LeftLowerArm")},
+			{char:FindFirstChild("LeftLowerArm"), char:FindFirstChild("LeftHand")},
+			{char:FindFirstChild("UpperTorso"), char:FindFirstChild("RightUpperArm")},
+			{char:FindFirstChild("RightUpperArm"), char:FindFirstChild("RightLowerArm")},
+			{char:FindFirstChild("RightLowerArm"), char:FindFirstChild("RightHand")},
+			{char:FindFirstChild("LowerTorso"), char:FindFirstChild("LeftUpperLeg")},
+			{char:FindFirstChild("LeftUpperLeg"), char:FindFirstChild("LeftLowerLeg")},
+			{char:FindFirstChild("LeftLowerLeg"), char:FindFirstChild("LeftFoot")},
+			{char:FindFirstChild("LowerTorso"), char:FindFirstChild("RightUpperLeg")},
+			{char:FindFirstChild("RightUpperLeg"), char:FindFirstChild("RightLowerLeg")},
+			{char:FindFirstChild("RightLowerLeg"), char:FindFirstChild("RightFoot")}
+		}
+		
+		for i, pair in ipairs(bonePairs) do
+			local startPart, endPart = pair[1], pair[2]
+			if startPart and endPart then
+				local startPos = getPos(startPart)
+				local endPos = getPos(endPart)
+				
+				if startPos and endPos then
+					local startScreen, startOn = Camera:WorldToViewportPoint(startPos)
+					local endScreen, endOn = Camera:WorldToViewportPoint(endPos)
+					local line = skeletonLines[player].lines[i]
+					
+					if startOn and endOn and line then
+						line.From = Vector2.new(startScreen.X, startScreen.Y)
+						line.To = Vector2.new(endScreen.X, endScreen.Y)
+						line.Visible = true
+						if rainbowModeEnabled then 
+							line.Color = rainbowColor 
+						end
+					elseif line then
+						line.Visible = false
+					end
+				elseif skeletonLines[player].lines[i] then
+					skeletonLines[player].lines[i].Visible = false
+				end
+			elseif skeletonLines[player].lines[i] then
+				skeletonLines[player].lines[i].Visible = false
+			end
+		end
+		
+		-- Tracers
+		if skeletonESPTracers then
+			local root = char:FindFirstChild("HumanoidRootPart")
+			if root then
+				local rootPos, onScreen = Camera:WorldToViewportPoint(root.Position)
+				if onScreen then
+					if not skeletonLines[player].tracer then
+						local tracer = Drawing.new("Line")
+						tracer.Thickness = 2
+						tracer.Transparency = 1
+						tracer.Color = Color3.new(1,1,1)
+						skeletonLines[player].tracer = tracer
+					end
+					
+					local tracer = skeletonLines[player].tracer
+					tracer.From = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y)
+					tracer.To = Vector2.new(rootPos.X, rootPos.Y)
+					tracer.Visible = true
+					if rainbowModeEnabled then 
+						tracer.Color = rainbowColor 
+					end
+				else
+					if skeletonLines[player].tracer then
+						skeletonLines[player].tracer.Visible = false
+					end
+				end
+			end
+		else
+			if skeletonLines[player] and skeletonLines[player].tracer then
+				skeletonLines[player].tracer.Visible = false
+			end
+		end
+	end
+end)
+
+-- Other Visuals
+VisualsOtherGroupBox:AddToggle("DeadESPToggle", {
+	Text = "Hide Dead ESP",
+	Tooltip = "Automatically remove ESP from dead players",
+	Default = true,
+	Callback = function(Value)
+		deadESPEnabled = Value
+	end,
+})
+
+VisualsOtherGroupBox:AddToggle("RainbowModeToggle", {
+	Text = "Rainbow Mode",
+	Tooltip = "Animated colors on all ESPs",
+	Default = false,
+	Callback = function(Value)
+		rainbowModeEnabled = Value
+	end,
+})
+
+-- Movement Tab (Removed Speed Hack)
+local MovementLeftGroupBox = Tabs.Movement:AddLeftGroupbox("Movement Options")
+local MovementRightGroupBox = Tabs.Movement:AddRightGroupbox("Additional Movement")
+
+-- Fly Hack
+local flyEnabled = false
+local flySpeed = 10
+local flyBodyVelocity
+
+MovementLeftGroupBox:AddToggle("FlyHackToggle", {
+	Text = "Fly Hack",
+	Tooltip = "Free flight",
+	Default = false,
+	Callback = function(Value)
+		flyEnabled = Value
+		
+		if Value then
+			local root = getRoot()
+			if root then
+				root.Anchored = false
+				
+				if not flyBodyVelocity then
+					flyBodyVelocity = Instance.new("BodyVelocity")
+					flyBodyVelocity.MaxForce = Vector3.new(4000, 4000, 4000)
+					flyBodyVelocity.Velocity = Vector3.zero
+					flyBodyVelocity.Parent = root
+				end
+			end
+		else
+			if flyBodyVelocity then
+				flyBodyVelocity:Destroy()
+				flyBodyVelocity = nil
+			end
+		end
+	end,
+})
+
+MovementLeftGroupBox:AddSlider("FlyHackSpeed", {
+	Text = "Fly Speed",
+	Default = 10,
+	Min = 1,
+	Max = 100,
+	Rounding = 0,
+	Callback = function(Value)
+		flySpeed = Value
+	end,
+})
+
+MovementLeftGroupBox:AddLabel("Fly Keybind"):AddKeyPicker("FlyKeybind", {
+	Default = "F",
+	Mode = "Toggle",
+	Text = "Fly Key",
+	NoUI = false,
+	Callback = function(Value)
+		flyEnabled = Value
+		Toggles.FlyHackToggle:SetValue(Value)
+	end,
+})
+
+connections["Fly"] = RunService.Heartbeat:Connect(function()
+	if flyEnabled and flyBodyVelocity and flyBodyVelocity.Parent then
+		local moveDir = Vector3.zero
+		if UserInputService:IsKeyDown(Enum.KeyCode.W) then moveDir += Camera.CFrame.LookVector end
+		if UserInputService:IsKeyDown(Enum.KeyCode.S) then moveDir -= Camera.CFrame.LookVector end
+		if UserInputService:IsKeyDown(Enum.KeyCode.A) then moveDir -= Camera.CFrame.RightVector end
+		if UserInputService:IsKeyDown(Enum.KeyCode.D) then moveDir += Camera.CFrame.RightVector end
+		if UserInputService:IsKeyDown(Enum.KeyCode.Space) then moveDir += Vector3.new(0, 1, 0) end
+		if UserInputService:IsKeyDown(Enum.KeyCode.LeftShift) then moveDir -= Vector3.new(0, 1, 0) end
+		
+		if moveDir.Magnitude > 0 then
+			flyBodyVelocity.Velocity = moveDir.Unit * flySpeed
+		else
+			flyBodyVelocity.Velocity = Vector3.zero
+		end
+	end
+end)
+
+-- Infinite Jump
+local infJumpEnabled = false
+local infJumpConnection
+
+MovementRightGroupBox:AddToggle("InfiniteJumpToggle", {
+	Text = "Infinite Jump",
+	Tooltip = "Unlimited jumps without cooldown",
+	Default = false,
+	Callback = function(Value)
+		infJumpEnabled = Value
+		if Value then
+			infJumpConnection = UserInputService.JumpRequest:Connect(function()
+				local humanoid = getHumanoid()
+				if humanoid then
+					humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+				end
+			end)
+		else
+			if infJumpConnection then 
+				infJumpConnection:Disconnect() 
+				infJumpConnection = nil 
+			end
+		end
+	end,
+})
+
+-- No Clip
+local noClipEnabled = false
+
+MovementRightGroupBox:AddToggle("NoClipToggle", {
+	Text = "No Clip",
+	Tooltip = "Walk through walls/objects",
+	Default = false,
+	Callback = function(Value)
+		noClipEnabled = Value
+	end,
+})
+
+connections["NoClip"] = RunService.Stepped:Connect(function()
+	if noClipEnabled then
+		pcall(function()
+			for _, part in ipairs(getCharacter():GetDescendants()) do
+				if part:IsA("BasePart") then
+					part.CanCollide = false
+				end
+			end
+		end)
+	end
+end)
+
+-- Bunny Hop
+local bunnyHopEnabled = false
+
+MovementRightGroupBox:AddToggle("BunnyHopToggle", {
+	Text = "Bunny Hop",
+	Tooltip = "Auto-jump for momentum gain",
+	Default = false,
+	Callback = function(Value)
+		bunnyHopEnabled = Value
+	end,
+})
+
+connections["BunnyHop"] = RunService.Heartbeat:Connect(function()
+	if bunnyHopEnabled then
+		pcall(function()
+			local humanoid = getHumanoid()
+			if humanoid and humanoid.MoveDirection.Magnitude > 0 and humanoid.FloorMaterial ~= Enum.Material.Air then
+				humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+			end
+		end)
+	end
+end)
+
+-- Protection Tab
+local ProtectionLeftGroupBox = Tabs.Protection:AddLeftGroupbox("Protection Options")
+
+local antiAimEnabled = false
+local antiAimMode = "Spin"
+local antiAimSpeed = 10
+
+ProtectionLeftGroupBox:AddToggle("AntiAimToggle", {
+	Text = "Anti-Aim",
+	Tooltip = "Deflects enemy aims",
+	Default = false,
+	Callback = function(Value)
+		antiAimEnabled = Value
+	end,
+})
+
+ProtectionLeftGroupBox:AddDropdown("AntiAimMode", {
+	Values = { "Spin", "Jitter", "Random" },
+	Default = 1,
+	Multi = false,
+	Text = "Mode",
+	Callback = function(Value)
+		antiAimMode = Value
+	end,
+})
+
+ProtectionLeftGroupBox:AddSlider("AntiAimSpeed", {
+	Text = "Spin Speed",
+	Default = 10,
+	Min = 1,
+	Max = 50,
+	Rounding = 0,
+	Callback = function(Value)
+		antiAimSpeed = Value
+	end,
+})
+
+-- Third Person Force - CORRIGIDO
+local forceThirdPerson = false
+local originalCameraType = nil
+local originalMaxZoom = nil
+local originalMinZoom = nil
+
+ProtectionLeftGroupBox:AddToggle("ForceThirdPerson", {
+	Text = "Force Third Person",
+	Tooltip = "Forces third person view for better Anti-Aim",
+	Default = false,
+	Callback = function(Value)
+		forceThirdPerson = Value
+		
+		if Value then
+			-- Salvar configurações originais
+			originalCameraType = LocalPlayer.CameraMode
+			originalMaxZoom = LocalPlayer.CameraMaxZoomDistance
+			originalMinZoom = LocalPlayer.CameraMinZoomDistance
+			
+			-- Forçar terceira pessoa
+			LocalPlayer.CameraMode = Enum.CameraMode.Classic
+			LocalPlayer.CameraMaxZoomDistance = 50
+			LocalPlayer.CameraMinZoomDistance = 5
+			
+			-- Garantir que a câmera está em terceira pessoa
+			task.spawn(function()
+				wait(0.1)
+				if LocalPlayer.CameraMode ~= Enum.CameraMode.Classic then
+					LocalPlayer.CameraMode = Enum.CameraMode.Classic
+				end
+			end)
+			
+			Library:Notify("Third Person Enabled!", 2)
+		else
+			-- Restaurar configurações originais
+			if originalCameraType then
+				LocalPlayer.CameraMode = originalCameraType
+			else
+				LocalPlayer.CameraMode = Enum.CameraMode.Classic
+			end
+			
+			if originalMaxZoom then
+				LocalPlayer.CameraMaxZoomDistance = originalMaxZoom
+			else
+				LocalPlayer.CameraMaxZoomDistance = 128
+			end
+			
+			if originalMinZoom then
+				LocalPlayer.CameraMinZoomDistance = originalMinZoom
+			else
+				LocalPlayer.CameraMinZoomDistance = 0.5
+			end
+			
+			Library:Notify("Third Person Disabled!", 2)
+		end
+	end,
+})
+
+-- Sistema de verificação contínua para terceira pessoa
+connections["ThirdPersonCheck"] = RunService.Heartbeat:Connect(function()
+	if forceThirdPerson then
+		-- Verificar e forçar continuamente a terceira pessoa
+		if LocalPlayer.CameraMode ~= Enum.CameraMode.Classic then
+			LocalPlayer.CameraMode = Enum.CameraMode.Classic
+		end
+		
+		-- Garantir distâncias de zoom adequadas
+		if LocalPlayer.CameraMaxZoomDistance < 20 then
+			LocalPlayer.CameraMaxZoomDistance = 50
+		end
+		
+		if LocalPlayer.CameraMinZoomDistance > 10 then
+			LocalPlayer.CameraMinZoomDistance = 5
+		end
+	end
+	
+	-- Anti-Aim
+	if antiAimEnabled then
+		pcall(function()
+			local root = getRoot()
+			if root then
+				if antiAimMode == "Spin" then
+					root.CFrame = root.CFrame * CFrame.Angles(0, math.rad(antiAimSpeed), 0)
+				elseif antiAimMode == "Jitter" then
+					root.CFrame = root.CFrame * CFrame.Angles(0, math.rad(math.random(-180, 180)), 0)
+				elseif antiAimMode == "Random" then
+					root.CFrame = root.CFrame * CFrame.Angles(
+						math.rad(math.random(-5, 5)),
+						math.rad(math.random(-180, 180)),
+						math.rad(math.random(-5, 5))
+					)
+				end
+			end
+		end)
+	end
+end)
+
+-- Extras Tab
+local ExtrasLeftGroupBox = Tabs.Extras:AddLeftGroupbox("Extras Options")
+
+local fpsBoostEnabled = false
+
+ExtrasLeftGroupBox:AddToggle("FPSBoostToggle", {
+	Text = "FPS Boost",
+	Tooltip = "Optimizes performance",
+	Default = false,
+	Callback = function(Value)
+		fpsBoostEnabled = Value
+		if Value then
+			pcall(function()
+				local lighting = game:GetService("Lighting")
+				lighting.GlobalShadows = false
+				lighting.FogEnd = 9e9
+				settings().Rendering.QualityLevel = Enum.QualityLevel.Level01
+				
+				for _, v in pairs(workspace:GetDescendants()) do
+					if v:IsA("ParticleEmitter") or v:IsA("Trail") or v:IsA("Smoke") or v:IsA("Fire") then
+						v.Enabled = false
+					end
+				end
+			end)
+			Library:Notify("FPS Boost Enabled!", 3)
+		else
+			pcall(function()
+				local lighting = game:GetService("Lighting")
+				lighting.GlobalShadows = true
+				settings().Rendering.QualityLevel = Enum.QualityLevel.Automatic
+			end)
+		end
+	end,
+})
+
+ExtrasLeftGroupBox:AddButton("Remove Textures (Extreme FPS)", function()
+	for _, v in pairs(workspace:GetDescendants()) do
+		pcall(function()
+			if v:IsA("Decal") or v:IsA("Texture") then
+				v:Destroy()
+			elseif v:IsA("BasePart") then
+				v.Material = Enum.Material.SmoothPlastic
+				v.Reflectance = 0
+			end
+		end)
+	end
+	Library:Notify("Textures removed!", 3)
+end)
+
+ExtrasLeftGroupBox:AddDivider()
+
+ExtrasLeftGroupBox:AddButton("Fullbright", function()
+	local lighting = game:GetService("Lighting")
+	lighting.Brightness = 2
+	lighting.ClockTime = 14
+	lighting.FogEnd = 100000
+	lighting.GlobalShadows = false
+	lighting.OutdoorAmbient = Color3.fromRGB(128, 128, 128)
+	Library:Notify("Fullbright Enabled!", 3)
+end)
+
+ExtrasLeftGroupBox:AddButton("Remove Fog", function()
+	local lighting = game:GetService("Lighting")
+	lighting.FogEnd = 100000
+	for _, v in pairs(lighting:GetChildren()) do
+		if v:IsA("Atmosphere") then
+			v:Destroy()
+		end
+	end
+	Library:Notify("Fog Removed!", 3)
+end)
+
+-- UI Settings Tab
+local MenuGroup = Tabs["UI Settings"]:AddLeftGroupbox("Menu")
+local ConfigGroup = Tabs["UI Settings"]:AddRightGroupbox("Configuration")
+
+MenuGroup:AddToggle("KeybindMenuOpen", {
+	Default = false,
+	Text = "Open Keybind Menu",
+	Callback = function(value)
+		Library.KeybindFrame.Visible = value
+	end,
+})
+
+MenuGroup:AddToggle("ShowCustomCursor", {
+	Text = "Custom Cursor",
+	Default = true,
+	Callback = function(Value)
+		Library.ShowCustomCursor = Value
+	end,
+})
+
+MenuGroup:AddDropdown("NotificationSide", {
+	Values = { "Left", "Right" },
+	Default = 2,
+	Text = "Notification Side",
+	Callback = function(Value)
+		Library:SetNotifySide(Value)
+	end,
+})
+
+MenuGroup:AddDivider()
+
+MenuGroup:AddButton("Unload Script", function()
+	Library:Unload()
+end)
+
+MenuGroup:AddLabel("Menu Keybind"):AddKeyPicker("MenuKeybind", { 
+	Default = "RightShift", 
+	NoUI = true, 
+	Text = "Menu keybind" 
+})
+
+Library.ToggleKeybind = Options.MenuKeybind
+
+-- Configuration Manager
+ConfigGroup:AddLabel("Config Management")
+ConfigGroup:AddDivider()
+
+ConfigGroup:AddDropdown("ConfigList", {
+	Values = {},
+	Default = 1,
+	Multi = false,
+	Text = "Select Config",
+})
+
+ConfigGroup:AddInput("ConfigName", {
+	Default = "",
+	Numeric = false,
+	Finished = false,
+	Text = "Config Name",
+	Tooltip = "Enter name for your config",
+	Placeholder = "MyConfig",
+})
+
+ConfigGroup:AddButton("Save Config", function()
+	local configName = Options.ConfigName.Value
+	if configName == "" then
+		Library:Notify("Please enter a config name!", 3)
+		return
+	end
+	SaveManager:Save(configName)
+	Library:Notify("Config '" .. configName .. "' saved!", 3)
+	SaveManager:Refresh()
+end)
+
+ConfigGroup:AddButton("Load Config", function()
+	local configName = Options.ConfigName.Value
+	if configName == "" then
+		Library:Notify("Please enter a config name!", 3)
+		return
+	end
+	if SaveManager:Load(configName) then
+		Library:Notify("Config '" .. configName .. "' loaded!", 3)
+	else
+		Library:Notify("Config not found!", 3)
+	end
+end)
+
+ConfigGroup:AddButton("Delete Config", function()
+	local configName = Options.ConfigName.Value
+	if configName == "" then
+		Library:Notify("Please enter a config name!", 3)
+		return
+	end
+	if SaveManager:Delete(configName) then
+		Library:Notify("Config '" .. configName .. "' deleted!", 3)
+		SaveManager:Refresh()
+	else
+		Library:Notify("Config not found!", 3)
+	end
+end)
+
+ConfigGroup:AddDivider()
+
+ConfigGroup:AddButton("Refresh Config List", function()
+	SaveManager:Refresh()
+	Library:Notify("Config list refreshed!", 2)
+end)
+
+ConfigGroup:AddButton("Set as Autoload", function()
+	local configName = Options.ConfigName.Value
+	if configName == "" then
+		Library:Notify("Please enter a config name!", 3)
+		return
+	end
+	SaveManager:SetAutoload(configName)
+	Library:Notify("Config '" .. configName .. "' set as autoload!", 3)
+end)
+
+-- Theme Manager Section
+local ThemeGroup = Tabs["UI Settings"]:AddLeftGroupbox("Themes")
+
+ThemeManager:SetLibrary(Library)
+SaveManager:SetLibrary(Library)
+
+SaveManager:IgnoreThemeSettings()
+SaveManager:SetIgnoreIndexes({ 
+	"MenuKeybind",
+	"ConfigName",
+	"ConfigList",
+	"ThemeList"
+})
+
+ThemeManager:SetFolder("RivalsCheat")
+SaveManager:SetFolder("RivalsCheat/configs")
+
+ThemeManager:ApplyToTab(Tabs["UI Settings"])
+
+-- Auto-save interval
+task.spawn(function()
+	while true do
+		task.wait(300)
+		if SaveManager.Autoload then
+			SaveManager:Save(SaveManager.Autoload)
+		end
+	end
+end)
+
+-- Load autoload config on startup
+SaveManager:LoadAutoloadConfig()
+
+-- Proper cleanup on unload
+Library:OnUnload(function()
+	print("Unloading Rivals Cheat...")
+	
+	-- Disconnect all connections
+	for name, conn in pairs(connections) do
+		pcall(function()
+			if name == "Aimbot" then
+				RunService:UnbindFromRenderStep("Aimbot")
+			elseif type(conn) == "table" and conn.Disconnect then
+				conn:Disconnect()
+			end
+		end)
+	end
+	connections = {}
+	
+	-- Clean up all ESP
+	for player in pairs(espBoxes) do
+		cleanupPlayerESP(player)
+	end
+	
+	-- Clean up FOV circle
+	pcall(function() fovCircle:Remove() end)
+	
+	-- Reset physics
+	if flyBodyVelocity then flyBodyVelocity:Destroy() end
+	Workspace.Gravity = 196.2
+	
+	-- Reset camera settings
+	if originalCameraType then
+		LocalPlayer.CameraMode = originalCameraType
+	else
+		LocalPlayer.CameraMode = Enum.CameraMode.Classic
+	end
+	
+	if originalMaxZoom then
+		LocalPlayer.CameraMaxZoomDistance = originalMaxZoom
+	else
+		LocalPlayer.CameraMaxZoomDistance = 128
+	end
+	
+	if originalMinZoom then
+		LocalPlayer.CameraMinZoomDistance = originalMinZoom
+	else
+		LocalPlayer.CameraMinZoomDistance = 0.5
+	end
+	
+	-- Reset humanoid
+	pcall(function()
+		local humanoid = getHumanoid()
+		if humanoid then
+			humanoid.WalkSpeed = 16
+			humanoid.JumpPower = 50
+		end
+	end)
+	
+	-- Disconnect infinite jump
+	if infJumpConnection then infJumpConnection:Disconnect() end
+	
+	-- Reset lighting
+	pcall(function()
+		local lighting = game:GetService("Lighting")
+		lighting.GlobalShadows = true
+		lighting.Brightness = 1
+		settings().Rendering.QualityLevel = Enum.QualityLevel.Automatic
+	end)
+	
+	Library:Notify("Script unloaded successfully!", 3)
+end)
+
+-- Startup notification
+Library:Notify("Rivals Cheat v2.0 Loaded!\nAll features optimized and fixed.", 5)
